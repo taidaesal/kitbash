@@ -1,0 +1,528 @@
+John Graunt, English, constructed one of the first life tables
+William Petty, English, much early writing on life tables
+Johan de Witt, Dutch, early pioneering work on life annuities
+Edmond Halley, English, constructed one of the first life tables
+James Dodson, English, developed statistical mortality tables
+Alexander Webster, Scottish, developed a scheme for providing pensions to widows of church ministers
+Richard Price, Welsh, introduced correct methods for values of contingent reversions
+Edward Rowe Mores, English, founder of The Society for Equitable Assurances on Lives and Survivorships and the first person to use the professional title "actuary"
+William Morgan, Welsh
+George Barrett, English
+Nathaniel Bowditch, probably the second American insurance actuary; Essex Fire and Marine
+Joshua Milne, English
+Benjamin Gompertz, English, developed the Gompertz-Makeham law of mortality and the Gompertz function
+John Finlaison, Scottish, first president of the Institute of Actuaries
+Griffith Davies, Welsh
+Thomas Galloway, Scottish
+Elizur Wright, American, campaigned for valuation laws requiring life insurance companies to hold reserves to guarantee payment of benefits
+Wesley S. B. Woolhouse, English, co-founder of the Institute of Actuaries
+James Joseph Sylvester, English
+Jacob Broch, Norwegian, founded Christiania almindelige gjensidige Forsørgelsesanstalt, Scandinavia's first life insurance company
+Ernst Engel, German, founded the first mortgage insurance company at Dresden[clarification needed]
+Thomas Bond Sprague, British
+Esprit Jouffret, French
+Thorvald N. Thiele, Danish
+Emory McClintock, American
+Anders Lindstedt, Swedish
+Thomas Bassett Macaulay, Canadian
+Thomas Jaffrey, Scottish
+Miles Menander Dawson, American
+Gabriel Gabrielsen Holtsmark, Norwegian
+George James Lidstone, British
+Joseph Burn, English
+Johan Frederik Steffensen, Danish
+Alexander Jobson, Australian
+Maurice Princet, French
+Henry Louis Rietz, American
+I. M. Rubinow, Russian
+Alfred M. Best, American, founder of the A. M. Best company
+Filip Lundberg, Swedish, founder of mathematical risk theory and managing director of several insurance companies
+William Palin Elderton, English
+Alfred J. Lotka, American
+Sverre Krogh, Norwegian
+Harald Cramér, Swedish, developed numerous statistical theories and methods
+Ivo Lah, Slovene
+Henrik Palmstrøm, Norwegian
+Oswald Jacoby, American, youngest person to pass four examinations of the Society of Actuaries[1]
+Pedro Teotónio Pereira, Portuguese
+Wendell Milliman, American, co-founder of Milliman & Robertson
+Andreas Tømmerbakke, Norwegian
+Bruno de Finetti, Italian
+Frank Redington, English, developed a theory concerning the immunisation of fixed-income portfolios
+Bernard Benjamin, English
+Cecil J. Nesbitt, Canadian
+Stuart A. Robertson, American, co-founder of Milliman & Robertson
+James C. Hickman, American
+Hugh Hedley Scurfield, English
+Phelim Boyle, Northern Irish
+Jeremy Gold,, American
+Paul McCrossan, Canadian
+Ed Savitz, American
+Ward Whitt, American
+Howard Winklevoss, American
+Robert Astley, Canadian
+Bryn Davies, British
+Christopher Daykin, English
+Steven Haberman, English
+James Robert Crosby, English
+Tan Suee Chieh, Singaporean
+David X. Li, Chinese, advanced the use of Gaussian copula models to price collateralized debt obligations
+Michael Shackleford, English
+Roelof Botha, South African
+Derek Abbott - quantum game theory and Parrondo's games
+Susanne Albers - algorithmic game theory and algorithm analysis
+Kenneth Arrow - voting theory
+Robert Aumann - equilibrium theory
+Robert Axelrod - repeated Prisoner's Dilemma
+Tamer Başar - dynamic game theory and application robust control of systems with uncertainty
+John Horton Conway - combinatorial game theory
+William Hamilton - evolutionary biology
+John Harsanyi - equilibrium theory
+Monika Henzinger - algorithmic game theory and information retrieval
+Steven Brams - cake cutting, fair division, theory of moves
+Peter L. Hurd - evolution of aggressive behavior
+Rufus Isaacs - differential games
+Michael Kearns - algorithmic game theory and computational social science
+John Maynard Smith - evolutionary biology
+Oskar Morgenstern - social organization
+John Forbes Nash - Nash equilibrium
+John von Neumann - Minimax theorem, expected utility, social organization, arms race
+J. M. R. Parrondo - games with a reversal of fortune, such as Parrondo's games
+Charles E. M. Pearce - games applied to queuing theory
+George R. Price - theoretical and evolutionary biology
+Anatol Rapoport - Mathematical psychologist, early proponent of tit-for-tat in repeated Prisoner's Dilemma
+Alvin E. Roth - market design
+Ariel Rubinstein - bargaining theory, learning and language
+Thomas Jerome Schaefer - computational complexity of perfect-information games
+Reinhard Selten - bounded rationality
+Claude Shannon - studied cryptography and chess; sometimes called "the father of information theory"[1][2]
+Lloyd Shapley - Shapley value and core concept in coalition games
+Thomas Schelling - bargaining and models of segregation
+Piero della Francesca
+Leonardo da Vinci - Euclidean geometry
+Jyesthadeva - Euclidean geometry, cyclic quadrilaterals
+Marin Getaldić
+Johannes Kepler
+Girard Desargues - projective geometry; Desargues' theorem
+René Descartes - invented the methodology of analytic geometry, also called Cartesian geometry after him
+Blaise Pascal - projective geometry
+Giordano Vitale
+Philippe de La Hire - projective geometry
+Isaac Newton - 3rd-degree algebraic curve
+Giovanni Ceva - Euclidean geometry
+Johann Jacob Heber - surveyor and geometrician
+Giovanni Gerolamo Saccheri - non-Euclidean geometry
+Leonhard Euler
+Tobias Mayer
+Johann Heinrich Lambert - non-Euclidean geometry
+Gaspard Monge - descriptive geometry
+John Playfair - Euclidean geometry
+Lazare Nicolas Marguerite Carnot - projective geometry
+Joseph Diaz Gergonne - projective geometry; Gergonne point
+Carl Friedrich Gauss - Theorema Egregium
+Louis Poinsot
+Siméon Denis Poisson
+Jean-Victor Poncelet - projective geometry
+Augustin-Louis Cauchy
+August Ferdinand Möbius - Euclidean geometry
+Nikolai Ivanovich Lobachevsky - hyperbolic geometry, a non-Euclidean geometry
+Germinal Dandelin - Dandelin spheres in conic sections
+Jakob Steiner - champion of synthetic geometry methodology, projective geometry, Euclidean geometry
+Karl Wilhelm Feuerbach - Euclidean geometry
+Julius Plücker
+János Bolyai - hyperbolic geometry, a non-Euclidean geometry
+Christian Heinrich von Nagel - Euclidean geometry
+Johann Benedict Listing - topology
+Ludwig Otto Hesse - algebraic invariants and geometry
+Pierre Ossian Bonnet - differential geometry
+Arthur Cayley
+Joseph Bertrand
+Delfino Codazzi - differential geometry
+Bernhard Riemann and Riemannian geometry
+Julius Wilhelm Richard Dedekind
+Ludwig Burmester - theory of linkages
+Edmund Hess
+Albert Victor Bäcklund
+Max Noether - algebraic geometry
+Henri Brocard - Brocard points
+William Kingdon Clifford - geometric algebra
+Pieter Hendrik Schoute
+Felix Klein
+Evgraf Fedorov
+Henri Poincaré
+Luigi Bianchi - differential geometry
+Hermann Minkowski - non-Euclidean geometry
+Henry Frederick Baker - algebraic geometry
+Élie Cartan
+Dmitri Egorov - differential geometry
+Veniamin Kagan
+Raoul Bricard - descriptive geometry
+Ernst Steinitz - Steinitz's theorem
+Marcel Grossmann
+Albert Einstein - non-Euclidean geometry
+Oswald Veblen - projective geometry, differential geometry
+Harry Clinton Gossard
+Arthur Rosenthal
+Buckminster Fuller
+Helmut Hasse - algebraic geometry
+Maurits Cornelis Escher - artist who used geometrical ideas extensively
+William Vallance Douglas Hodge
+Patrick du Val
+Beniamino Segre - combinatorial geometry
+Samuel L. Greitzer - founding chairman of USA Mathematical Olympiad
+J. C. P. Miller
+André Weil - Algebraic geometry
+H. S. M. Coxeter - theory of polytopes, non-Euclidean geometry, projective geometry
+J. A. Todd
+Daniel Pedoe
+Shiing-Shen Chern - differential geometry
+Ernst Witt
+Rafael Artzy
+Aleksandr Danilovich Aleksandrov
+László Fejes Tóth
+Edwin Evariste Moise
+Aleksei Pogorelov - differential geometry
+Magnus Wenninger - polyhedron models
+Jean-Louis Koszul
+Isaak Yaglom
+Benoît Mandelbrot - fractal geometry
+Katsumi Nomizu - affine differential geometry
+Michael S. Longuet-Higgins
+John Leech
+Alexander Grothendieck - algebraic geometry
+Branko Grünbaum - discrete geometry
+Michael Atiyah
+Lev Semenovich Pontryagin
+Geoffrey Colin Shephard
+Norman W. Johnson
+John Milnor
+Roger Penrose
+Yuri Manin - algebraic geometry and diophantine geometry
+Vladimir Arnold - algebraic geometry
+Ernest Vinberg
+J. H. Conway - sphere packing, recreational geometry
+Robin Hartshorne - geometry, algebraic geometry
+Phillip Griffiths - algebraic geometry, differential geometry
+Enrico Bombieri - algebraic geometry
+Robert Williams
+Peter McMullen
+Richard S. Hamilton - differential geometry, Ricci flow, Poincaré conjecture
+Mikhail Gromov
+Roger Burrows - applied close packing theory in education
+Rudy Rucker
+William Thurston
+Shing-Tung Yau
+Michael Freedman
+Egon Schulte - polytopes
+George W. Hart - sculptor
+Károly Bezdek - discrete geometry, sphere packing, Euclidean geometry, non-Euclidean geometry
+Simon Donaldson
+Grigori Perelman - Poincaré conjecture
+Peter Abelard
+Wilhelm Ackermann
+Sergei Adian
+Rodolphus Agricola
+Kazimierz Ajdukiewicz
+Alcuin
+Alan Ross Anderson
+Peter B. Andrews
+Thomas Aquinas
+Lennart Åqvist
+Aristotle
+Heiric of Auxerre
+Bahmanyār
+Alexander Bain
+Yehoshua Bar-Hillel
+Henk Barendregt
+Jon Barwise
+James Earl Baumgartner
+John Lane Bell
+Nuel Belnap
+Paul Benacerraf
+Jean Paul Van Bendegem
+Johan van Benthem
+Paul Bernays
+Evert Willem Beth
+Jean-Yves Béziau
+Józef Maria Bocheński
+Boethius
+Bernard Bolzano
+Andrea Bonomi
+George Boole
+George Boolos
+Nicolas Bourbaki
+Thomas Bradwardine
+Richard Brinkley
+Luitzen Egbertus Jan Brouwer
+Alan Richard Bundy
+Franco Burgersdijk
+Jean Buridan
+Walter Burley
+Chanakya
+Georg Ferdinand Cantor
+Rudolf Carnap
+Lewis Carroll
+Categoriae decem
+Gregory Chaitin
+Chrysippus
+Alonzo Church
+Leon Chwistek
+Gordon H. Clark
+Paul Joseph Cohen
+Conimbricenses, name by which Jesuits of the University of Coimbra
+S. Barry Cooper
+Jack Copeland
+John Corcoran
+Newton da Costa
+William Craig
+Haskell Curry
+Tadeusz Czeżowski
+Dirk van Dalen
+Martin Davis
+Augustus De Morgan
+Dharmakirti
+Dignāga
+Diodorus Cronus
+Martin Dorp
+John Dumbleton
+Michael A. E. Dummett
+Jon Michael Dunn
+Alexander Esenin-Volpin
+John Etchemendy
+Leonhard Euler
+Solomon Feferman
+Richard Ferrybridge
+Hartry Field
+Kit Fine
+Melvin Fitting
+Graeme Forbes[1]
+Matthew Foreman
+Michael Fourman
+Roland Fraïssé
+Abraham Fraenkel
+Gottlob Frege
+Harvey Friedman
+Dov Gabbay
+Robin Gandy
+Sol Garfunkel
+Garlandus Compotista
+Akṣapāda Gautama, author of Nyāya Sūtras
+Peter Geach
+Gerhard Gentzen
+Joseph Diaz Gergonne
+Gilbert de la Porrée
+Jean-Yves Girard
+Kurt Gödel
+Reuben Louis Goodstein
+Siegfried Gottwald
+Jeroen Groenendijk
+Petr Hájek
+Leo Harrington
+Robert S. Hartman
+Georg Wilhelm Friedrich Hegel
+Jean Van Heijenoort
+Leon Henkin
+Jacques Herbrand
+Arend Heyting
+David Hilbert
+Jaakko Hintikka
+Alfred Horn
+William Alvin Howard
+Ehud Hrushovski
+Ibn Taymiyyah
+Giorgi Japaridze
+Stanisław Jaśkowski
+Richard Jeffrey
+Ronald Jensen
+William Stanley Jevons
+William Ernest Johnson
+Bjarni Jónsson
+Philip Jourdain
+Joachim Jungius
+David Kaplan
+Alexander S. Kechris
+Howard Jerome Keisler
+Ahmed Raza Khan
+Richard Kilvington
+Robert Kilwardby
+Stephen Cole Kleene
+Tadeusz Kotarbiński
+Robert Kowalski
+Georg Kreisel
+Saul Kripke
+Leopold Kronecker
+Kenneth Kunen
+Joachim Lambek
+Johann Heinrich Lambert
+Karel Lambert
+Gottfried Wilhelm Leibniz
+Stanisław Leśniewski
+Clarence Irving Lewis
+David Kellogg Lewis
+Adolf Lindenbaum
+Per Lindström
+Ramon Llull
+Martin Löb
+Paul Lorenzen
+Jerzy Łoś
+Hermann Lotze
+Leopold Löwenheim
+Jan Łukasiewicz
+Saunders MacLane
+Dugald Macpherson
+John Mair
+David Makinson
+Isaac Malitz
+Gary R. Mar
+Donald A. Martin
+Richard Milton Martin
+Per Martin-Löf
+Yuri Matiyasevich
+Bob Meyer
+Grigori Mints
+Richard Montague
+Yiannis N. Moschovakis
+Andrzej Mostowski
+Pavel Naumov
+Edward Nelson
+John von Neumann
+Jean Nicod
+Pyotr Novikov
+William of Ockham
+Piergiorgio Odifreddi
+Ivan Orlov
+John Pagus
+Jeff Paris
+Charles Parsons
+Solomon Passy
+Paul of Venice
+Giuseppe Peano
+Charles Sanders Peirce
+Lorenzo Peña
+Chaïm Perelman
+Walter Pitts
+Henry Pogorzelski
+Emil Leon Post
+Dag Prawitz
+Mojżesz Presburger
+Graham Priest
+Arthur Prior
+Hilary Putnam
+Willard Van Orman Quine
+Michael O. Rabin
+Constantin Rădulescu-Motru
+Frank Plumpton Ramsey
+Petrus Ramus
+Carveth Read
+Abraham Robinson
+Raphael M. Robinson
+J. Barkley Rosser
+Richard Routley, later Richard Sylvan
+Frederick Rowbottom
+Ian Rumfitt
+Bertrand Russell
+Giovanni Girolamo Saccheri
+Gerald Sacks
+Albert of Saxony
+Rolf Schock
+Moses Schönfinkel
+Ernst Schröder
+Kurt Schütte
+Dana Scott
+Sedulius Scottus
+John Duns Scotus
+Stewart Shapiro
+Fyodor Shcherbatskoy
+Saharon Shelah
+William of Sherwood
+Hui Shi
+Raghunatha Siromani
+Thoralf Skolem
+Dimiter Skordev
+Theodore Slaman
+Raymond Smullyan
+William of Soissons
+Robert M. Solovay
+John R. Steel
+Martin Stokhof
+Ralph Strode
+Richard Swineshead
+Richard Sylvan
+Gaisi Takeuti
+Alfred Tarski
+Theophrastus
+Pavel Tichý
+Friedrich Adolf Trendelenburg
+Alan Turing
+Kazimierz Twardowski
+Alasdair Urquhart
+Vladimir Uspensky
+Lorenzo Valla
+Moshe Y. Vardi
+Nicolai A. Vasiliev
+Robert Lawson Vaught
+Paul of Venice
+John Venn
+Juan Luis Vives
+Hao Wang
+Isaac Watts
+Richard Whately
+Alfred North Whitehead
+Ludwig Wittgenstein
+Christian Wolff
+W. Hugh Woodin
+John Woods
+Georg Henrik von Wright
+Jin Yuelin
+Jacopo Zabarella
+Lotfi A. Zadeh
+Ernst Zermelo
+Alexander Zinoviev
+Dennis Ritchie
+Ken Thompson
+Ayumu Sohma
+James Weaver
+Alan Creed
+Takuya Spears
+Mark Young
+Hisota Nakamura
+Hirono Mizushiro
+Narumi Asazuki
+Jonathan Maxwell
+Takuya Yun
+Lloyd Wright
+Hizumi Mizushiro
+Alessandro Padavona
+John Pennington
+Benjamin Kitterect
+Hiroshi Kamiya
+Tohma Murakami
+Daisuke Monou
+Allen Nelson
+Mikk Sisask
+Gareth Graves
+Alexander Cachat
+Isaac Nelson
+Jacob Weaver
+Daichi Kobayashi
+Soichiro Ryuuga
+Ryoga Akagi
+Charles Bradly
+Yuzuru Kamiya
+Miles Anderson
+Michael Orihara
+Ian Yocum
+Rich Lee
+Dylan Leeman
+Alex Clink
+Eli Fenton
+Y Sussman
+Nathan He
+Matthew Larson
+Alex Hripak
+Todd German
+Avijeet Tomer
+Jarin Schmidt
+Daniel Doktori
+JC Calingo
+Adam Masur

@@ -1,0 +1,1145 @@
+Cristina Bicchieri - epistemology of game theory
+Olga Bondareva - Bondareva–Shapley theorem
+Jennifer Tour Chayes - algorithmic game theory and auction algorithms
+Monika Henzinger - algorithmic game theory and information retrieval
+Naira Hovakimyan - differential games and adaptive control
+Anna Karlin - algorithmic game theory and online algorithms
+Sarit Kraus - non-monotonic reasoning
+Julia Robinson - proved that fictitious play dynamics converges to the mixed strategy Nash equilibrium in two-playe
+Suzanne Scotchmer - patent law incentive models
+Myrna Wooders - coalition theory
+Sofia Vasilyevna Kovalevskaya
+Alicia Boole Stott
+Emmy Noether - algebraic topology
+Maryam Mirzakhani
+Ruth Barcan Marcus (USA
+Susan Haack (UK
+Christine Ladd-Franklin (USA
+Penelope Maddy (USA
+María Manzano(Spain
+Ruth Barcan Marcus (USA
+Sara Negri (Italy/Finland
+Rózsa Péter (Hungary
+Helena Rasiowa (Poland
+Gila Sher (Israel/USA
+Anne Sjerp Troelstra (Netherlands
+Karen Aardal
+Hanan Mohamed Abdelrahman
+Izabela Abramowicz
+L. D. Adams
+Tatyana Afanasyeva
+Maria Gaetana Agnesi
+Ilka Agricola
+Dorit Aharonov
+Beatrice Aitchison
+Mara Alagic
+Lara Alcock
+Helen Popova Alderson
+Grace Alele-Williams
+Aldona Aleškevičienė-Statulevičienė
+Stephanie B. Alexander
+Florence Eliza Allen
+Linda J. S. Allen
+Elizabeth S. Allman
+Ann S. Almgren
+Melania Alvarez
+Yvette Amice
+Divsha Amirà
+T. A. Sarasvati Amma
+Astrid an Huef
+Nalini Anantharaman
+Beverly Anderson
+Annie Dale Biddle Andrews
+Grace Andrews
+Kathleen Antonelli
+Noriko H. Arai
+Crista Arangala
+Carolina Araujo
+Maria Angela Ardinghelli
+Esther Arkin
+Sandra Arlinghaus
+Marie-Claude Arnaud
+Elayne Arrington
+Natascha Artin Brunswick
+Shiri Artstein
+Winifred Asprey
+Michèle Audin
+Tamara Awerbuch-Friedlander
+Hertha Ayrton
+Wealthy Babcock
+Clara Latimer Bacon
+Hajer Bahouri
+Rose Baker
+Viviane Baladi
+Jennifer Balakrishnan
+Deborah Loewenberg Ball
+Hélène Barcelo
+Grace Marie Bareis
+Nina Bari
+Ruth Aaronson Bari
+Mildred Barnard
+Janet Barnett
+Ida Barney
+Charlotte Barnum
+Lida Barrett
+Jean Bartik
+Estelle Basor
+Grace Bates
+Lynn Batten
+Patricia E. Bauman
+Agnes Sime Baxter
+Eva Bayer-Fluckiger
+Karine Beauchard
+May Beenken
+Janet Beery
+Alexandra Bellow
+Margherita Piazzola Beloch
+Suzan Rose Benedict
+Georgia Benkart
+Sylvie Benzoni
+Bonnie Berger
+Marsha Berger
+Julie Bergner
+Nicole Berline
+Natalia Berloff
+Christine Bernardi
+Dorothy Lewis Bernstein
+Valérie Berthé
+Andrea Bertozzi
+Vasanti N. Bhat-Nayak
+Ushadevi Bhosle
+Miggy Biller
+Sara Billey
+Joan Birman
+Gertrude Blanch
+Lenore Blum
+Jo Boaler
+Mary L. Boas
+Graciela Boente
+Natashia Boland
+Aline Bonami
+Alicia Boole Stott
+Mary Everest Boole
+Kathleen Booth
+Liliana Borcea
+Valentina Borok
+Celia Grillo Borromeo
+Anne Bosworth
+Fernanda Botelho
+Anne Bourlioux
+Élisabeth Bouscaren
+Mireille Bousquet-Mélou
+Sylvia Bozeman
+Lis Brack-Bernsen
+Mary Bradburn
+Lillian K. Bradley
+Dorothy Brady
+Priscilla Braislin
+Bodil Branner
+Hel Braun
+Marilyn Breen
+Susanne Brenner
+Kathrin Bringmann
+Bárbara M. Brizuela
+Anne Broadbent
+Tamara Broderick
+Lia Bronsard
+Margaret Brown
+Susan Brown
+Marjorie Lee Browne
+Laurence Broze
+Sophie Bryant
+Ranee Brylinski
+Annalisa Buffa
+Marta Bunge
+Angelika Bunse-Gerstner
+Regina S. Burachik
+Gail F. Burrill
+Leone Burton
+Ida Busbridge
+Margaret K. Butler
+Angelina Cabras
+Fioralba Cakoni
+Maria-Carme Calderer
+Nora Calderwood
+Erika Tatiana Camacho
+Sunčica Čanić
+Ana Cannas da Silva
+Barbara_Canright
+Lucia Caporaso
+Ana Caraiani
+Alessandra Carbone
+Sally Elizabeth Carlson
+Mary Cartwright
+María Andrea Casamayor
+Bettye Anne Case
+Emma Castelnuovo
+Beatrice Mabel Cave-Browne-Cave
+Frances Cave-Browne-Cave
+Anny Cazenave
+Zoia Ceaușescu
+Sue Chandler
+Sun-Yung Alice Chang
+Josephine Chanler
+Mei-Chu Chang
+Vyjayanthi Chari
+Ruth Charney
+Marie Charpentier
+Émilie du Châtelet
+Zoé Chatzidakis
+Jennifer Tour Chayes
+Karine Chemla
+Jacqueline Chen
+Margaret Cheney
+Miranda Cheng
+Eugenia Cheng
+Agata Ciabattoni
+Graciela Chichilnisky
+Phyllis Chinn
+Grace Chisholm Young
+YoungJu Choie
+Yvonne Choquet-Bruhat
+Maria Chudnovsky
+Fan Chung
+Julia Chuzhoy
+Mónica Clapp
+Joan Clarke
+Jeanne N. Clelland
+Anne Cobbe
+Sally Cockburn
+Doris Cohen
+Elaine Cohen
+Marion Cohen
+Miriam Cohen
+Amy Cohen-Corwin
+Alina Carmen Cojocaru
+Susan Jane Colley
+Agnes Bell Collier
+Coralie Colmez
+Caterina Consani
+Pamela Cook
+Frances Cope
+Minerva Cordero
+Sylvie Corteel
+Carla Cotwright-Williams
+Elizabeth Buchanan Cowley
+Annalisa Crannell
+Alissa Crans
+Marie Crous
+Marianna Csörnyei
+Helen F. Cullen
+Louise Duffield Cummings
+Susan Jane Cunningham
+Ruth F. Curtain
+Carina Curto
+Amy Dahan
+Donatella Danielli
+Sofia Danova
+Christine Darden
+Geraldine Claudette Darden
+Panagiota Daskalopoulos
+Ingrid Daubechies
+Chantal David
+Penny J. Davies
+Ineke De Moortel
+Valeria de Paiva
+Lisette de Pillis
+Daniela De Silva
+Winifred Margaret Deans
+Mary Deconge
+Huguette Delavault
+Ermelinda DeLaViña
+Laura DeMarco
+Shakuntala Devi
+Cécile DeWitt-Morette
+Giulia Di Nunno
+Auguste Dick
+Alicia Dickenstein
+Caren Diefenderfer
+Ada Dietz
+Ulla Dinger
+Irit Dinur
+Susanne Ditlevsen
+Mary P. Dolciani
+Yvonne Dold-Samplonius
+Suzanne Dorée
+Yael Dowker
+Agnes Meyer Driscoll
+Cornelia Druțu
+Malgorzata Dubiel
+Marie-Louise Dubreil-Jacotin
+Moon Duchin
+Ioana Dumitriu
+Julena Steinheider Duncombe
+Elizabeth B. Dussan V.
+Nira Dyn
+Annie Easley
+Sheila May Edmonds
+Josephine D. Edwards
+Mary Edwards
+Constance van Eeden
+Tatyana Pavlovna Ehrenfest
+Andrée Ehresmann
+Thyra Eibe
+Carolyn Eisele
+Kirsten Eisenträger
+Tanja Eisner
+Nicole El Karoui
+Jo Ellis-Monaghan
+Susanna S. Epp
+Karin Erdmann
+Anna Erschler
+Hélène Esnault
+Maria J. Esteban
+Alison Etheridge FRS
+Vera Faddeeva
+Fariba Fahroo
+Barbara Trader Faires
+Etta Zuber Falconer
+María Falk de Losada
+Martha Isabel Fandiño Pinilla
+Barbara Fantechi
+Marie Farge
+Mary Celine Fasenmyer
+Heike Fassbender
+Lisa Fauci
+Patricia Fauring
+Philippa Fawcett
+Joan Feigenbaum
+Genevieve Grotjan Feinstein
+Käte Fenchel
+Elizabeth Fennema
+Anuška Ferligoj
+Jacqueline Ferrand
+Antonia Ferrín Moreiras
+Joan Ferrini-Mundy
+Ilse Fischer
+Irene Fischer
+Vera Fischer
+Mary Flahive
+Sarah Flannery
+Erica Flapan
+Irmgard Flügge-Lotz
+Natasha Flyer
+Amanda Folsom
+Irene Fonseca
+Phyllis Fox
+Marguerite Frank
+Hélène Frankowska
+Ailana Fraser
+Haya Freedman
+Herta Freitag
+Susan Friedlander
+Charlotte Froese Fischer
+Hannah Fry
+Shirley M. Frye
+Elza Furtado Gomide
+Lisl Gaal
+Isabelle Gallagher
+Irene M. Gamba
+Svetlana Gannushkina
+Nina Gantert
+Mary Cleophas Garvin
+Hilda Geiringer
+Anne Gelb
+Sue Geller
+Ruth Gentry
+Maria-Pia Geppert
+Sophie Germain
+Marie Gernet
+Ellen Gethner
+Irène Gijbels
+Olga Gil Medrano
+Anna C. Gilbert
+Jane Piore Gilman
+Gloria Ford Gilmer
+Vivette Girault
+Josephine Burns Glasgow
+Sarah Glaz
+Heide Gluesing-Luerssen
+Julia Gog
+Bonnie Gold
+Lisa Goldberg
+Rebecca Goldin
+Catherine Goldstein
+Shafi Goldwasser
+Concha Gómez
+Sherry Gong
+Enriqueta González Baz
+Maria Gordina
+Carolyn S. Gordon
+Julia Gordon
+Pamela Gorkin
+Sigal Gottlieb
+Mary de Lellis Gough
+Alice Bache Gould
+Gene Grabeel
+Judith Grabiner
+Evelyn Boyd Granville
+Antonella Grassi
+Marion Cameron Gray
+Mary W. Gray
+Judy Green
+Anne Greenbaum
+Catherine Greenhill
+Cindy Greenwood
+Ruth Gregory
+Margaret Greig
+Lois Wilfred Griffiths
+Ellina Grigorieva
+Elisenda Grigsby
+Margaret Grimshaw
+Birgit Grodal
+Edna Grossman
+Helen G. Grundman
+Weiqing Gu
+Laura Guggenbühl
+Colette Guillopé
+Joséphine Guidy Wandja
+Alice Guionnet
+Geneviève Guitel
+Kanta Gupta
+Neena Gupta
+Margaret Gurney
+Ruth Haas
+Dörte Haftendorn
+Kari Hag
+Marjorie Hahn
+Deborah Tepper Haimo
+Susie W. Håkansson
+Ursula Hamenstädt
+Christine Hamill
+Anita Hansbo
+Megumi Harada
+Alison Harcourt
+Frances Hardcastle
+Kathryn E. Hare
+Valentina Harizanov
+Heather Harrington
+Jenny Harrison
+Frances Harshbarger
+Shelly Harvey
+Maria Hasse
+Rhonda Hatcher
+Deanna Haunsperger
+Jane M. Hawkins
+Louise Hay
+Linda B. Hayden
+Ellen Hayes
+Margaret Hayman
+Euphemia Lofton Haynes
+Teresa W. Haynes
+Olive Hazlett
+Maria Heep-Altiner
+Katherine Heinrich
+Nadia Heninger
+Cora Barbara Hennel
+Dagmar R. Henney
+Inge Henningsen
+Rebecca A. Herb
+Grete Hermann
+Susan Hermiller
+Constance Anne Herschel
+Patricia Hersh
+Kathryn Hess
+Gloria Conyers Hewitt
+Aparna Higgins
+Nancy Hingston
+Hoàng Xuân Sính
+Catherine Hobbs
+Dorit S. Hochbaum
+Marlis Hochbruck
+Judy A. Holdener
+Barbara R. Holland
+Lotte Hollands
+Tara S. Holm
+Olga Holtz
+Dorothy McFadden Hoover
+Grace Hopper
+Annick Horiuchi
+Anette Hosoi
+Susan Howson
+Celia Hoyles
+Hu Hesheng
+Verena Huber-Dyson
+Annette Huber-Klawitter
+Anne Lester Hudson
+Hilda Phoebe Hudson
+Sabine Van Huffel
+Rhonda Hughes
+Deborah Hughes Hallett
+Birge Huisgen-Zimmermann
+Mabel Gweneth Humphreys
+Fern Hunt
+Joan Hutchinson
+Marie Hušková
+Hypatia
+Milagros D. Ibe
+Annette Imhausen
+Tasha Inniss
+Eleny Ionel
+Ilse Ipsen
+Valerie Isham
+Shihoko Ishii
+Suad Ibrahim Issa
+Vanaja Iyengar
+Trachette Jackson
+Jessie Marie Jacobs
+Lisa Jeffrey FRSC
+Jacqueline Jensen-Vallin
+Svetlana Jitomirskaya
+Aimee Johnson
+Katherine Johnson
+Eleanor Jones
+Nataša Jonoska
+Artishia Wilkerson Jordan
+Nalini Joshi
+Margarete Kahn
+Suzan Kahramaner
+Gabriele Kaiser
+Efstratia Kalfagianni
+Eva Kallin
+Gudrun Kalmbach
+Hermine Agavni Kalustyan
+Shoshana Kamin
+Gizem Karaali
+Mary Cordia Karl
+Carol Karp
+Yael Karshon
+Fanny Kassel
+Svetlana Katok
+Bruria Kaufman
+Elham Kazemi
+Linda Keen
+Lyudmila Keldysh
+Ruth Kellerhals
+Julia Kempe
+Claribel Kendall
+Juliette Kennedy
+Patricia Clark Kenschaft
+Autumn Kent
+Leah Keshet
+Radha Kessar
+Barbara Keyfitz
+Olga Kharlampovich
+Ju-Lee Kim
+Chawne Kimber
+Angie Turner King
+Faina Mihajlovna Kirillova
+Vivien Kirk
+Ellen Kirkman
+Frances Kirwan
+Tinne Hoff Kjeldsen
+Erica Klarreich
+Maria Klawe
+Genevieve M. Knight
+Julia F. Knight
+Tamara G. Kolda
+Nancy Kopell
+Elaine Koppelman
+Maria Korovina
+Yvette Kosmann-Schwarzbach
+Sofia Kovalevskaya
+Bryna Kra
+Edna Kramer
+Cecilia Krieger
+Holly Krieger
+Anna Zofia Krygowska
+Ewa Kubicka
+Vera Kublanovskaya
+Daniela Kühn
+Krystyna Kuperberg
+Věra Kůrková
+Rachel Kuske
+Klavdija Kutnar
+Izabella Łaba
+Carole Lacampagne
+Christine Ladd-Franklin
+Jeanne LaDuke
+Olga Ladyzhenskaya
+V. Lakshmibai
+Ailsa Land
+Susan Landau
+Tanja Lange
+Glenda Lappan
+Gillie Larew
+Jean Ann Larson
+Elisabeth Larsson
+Irena Lasiecka
+Renu C. Laskar
+Klavdiya Latysheva
+Monique Laurent
+Kristin Lauter
+Ruth Lawrence
+Anneli Cahn Lax
+Anita Layton
+Lê Thị Thanh Nhàn
+Alice Lee
+Joceline Lega
+Anne M. Leggett
+Emma Lehmer
+Marguerite Lehr
+Joan Leitzel
+Miriam Leiva
+Frédérique Lenger
+Suzanne Lenhart
+Annie Leuch-Reineck
+Debbie Leung
+Rachel Levy
+Marta Lewicka
+Florence Lewis
+Sherry Li
+Winnie Li
+Paulette Libermann
+Lillian Rosanoff Lieber
+Magnhild Lien
+Elizaveta Litvinova
+Marie Litzinger
+Chiu-Chu Melissa Liu
+Deborah Frank Lockhart
+Susan Loepp
+Mayme Logsdon
+Ling Long
+Lynette Long
+Judith Q. Longyear
+Dawn Lott
+Ada Lovelace
+Katarzyna Lubnauer
+Edith Hirsch Luchins
+Monika Ludwig
+Alessandra Lunardi
+Élisabeth Lutz
+Julie Lutz
+Odile Macchi
+Marta Macho Stadler
+Barbara MacCluer
+Sheila Scott Macintyre
+Chrystal Macmillan
+Jessie MacWilliams
+Kathleen Madden
+Isabel Maddison
+Penelope Maddy
+Dorothy Maharam
+Carolyn A. Maher
+Carolyn Mahoney
+Larisa Maksimova
+Maryanthe Malliaris
+Vivienne Malone-Mayes
+Eugenia Malinnikova
+Michelle Manes
+Elizabeth Mansfield
+María Manzano
+Elena Marchisotto
+Matilde Marcolli
+Fotini Markopoulou-Kalamara
+Hannah Markwig
+Alison Marr
+Maia Martcheva
+Laura Martignon
+Emilie Martin
+María del Carmen Martínez Sancho
+Katalin Marton
+Susan Martonosi
+Vera Nikolaevna Maslennikova
+Maura Mast
+Claire Mathieu
+Gordana Matic
+Kaisa Matomäki
+Lola J. May
+Svitlana Mayboroda
+Anna Mazzucato
+Shirley McBay
+Mary McCammon
+Maeve McCarthy
+Lynne McClure
+Dusa McDuff FRS
+Elizabeth McHarg
+Lois Curfman McInnes
+Camille McKayle
+Danica McKellar
+Joyce McLaughlin
+Jeanette McLeod
+Jennifer McLoud-Mann
+Florence Marie Mears
+Sylvie Méléard
+Helen Abbot Merrill
+Winifred Edgerton Merrill
+Uta Merzbach
+Jill P. Mesirov
+Ida Martha Metcalf
+Catherine Meusburger
+Marie-Louise Michelsohn
+Ruth I. Michler
+Kaisa Miettinen
+Alison Miller
+Margaret Millington
+Eva Miranda
+Rosa M. Miró-Roig
+Maryam Mirzakhani
+Irina Mitrea
+Atsuko Miyaji
+Reiko Miyaoka
+Colette Moeglin
+Susan Montgomery
+Helen Moore
+Sophie Morel
+Rose Morton
+Joan Moschovakis
+Cathleen Synge Morawetz
+Ruth Moufang
+Magdalena Mouján
+Edith Alice Müller
+Anna Mullikin
+Emmy Murphy
+Valerie Myerscough
+Vera Myller
+Anna Nagurney
+Hasibun Naher
+Andrea R. Nahmod
+Pia Nalli
+Seema Nanda
+Mangala Narlikar
+Sonia Natale
+Caryn Navy
+Vicky Neale
+Gabriele Nebe
+Deanna Needell
+Sara Negri
+Evelyn Nelson
+Gail S. Nelson
+Claudia Neuhauser
+Hanna Neumann
+Adriana Neumann de Oliveira
+Mara Neusel
+Mary Frances Winston Newson
+Aoibhinn Ní Shúilleabháin
+Nancy K. Nichols
+Olympia Nicodemi
+Phyllis Nicolson
+Barbara Niethammer
+Mila Nikolova
+Kumiko Nishioka
+Wiesława Nizioł
+Emmy Noether
+Margarita Nolasco Santiago
+Isabella Novik
+Frieda Nugel
+Helena J. Nussenzveig Lopes
+Kaisa Nyberg
+Katharine Elizabeth O'Brien
+Hilary Ockendon
+Ortrud Oellermann
+Hee Oh
+Eve Oja
+Christine O'Keefe
+Kathleen Adebola Okikiolu
+Dianne P. O'Leary
+Olga Oleinik
+Dorte Olesen
+Gloria Olive
+Kathleen Ollerenshaw
+Cathy O'Neil
+Hinke Osinga
+Barbara L. Osofsky
+Marie Françoise Ouedraogo
+Helen Brewster Owens
+Ilona Palásti
+Erika Pannwitz
+Raman Parimala
+Haesun Park
+Karen Parshall
+Bozenna Pasik-Duncan
+Maria Pastori
+Christine Paulin-Mohring
+Barbara Paulson
+Nataša Pavlović
+Sylvie Paycha
+Sandrine Péché
+Jean Pedersen
+Irena Peeva
+Jeanne Peiffer
+Magda Peligrad
+Rose Peltesohn
+Kirsi Peltonen
+Cristina Pereyra
+Bernadette Perrin-Riou
+Hazel Perfect
+Laura Person
+Rózsa Péter
+Stefanie Petermichl
+Louise Petrén-Overton
+Guergana Petrova
+Linda Petzold
+Julia Pevtsova
+Flora Philip
+Cynthia A. Phillips
+Dominique Picard
+Sophie Piccard
+Ragni Piene
+Lillian Pierce
+Johanna Piesch
+Marie Anne Victoire Pigeon
+Faustina Pignatelli
+Gabriella Pinzari
+Jill Pipher
+Elena Cornaro Piscopia
+Toniann Pitassi
+Vera Pless
+Kim Plofker
+Gerlind Plonka
+Claudia Polini
+Harriet Pollatsek
+Pelageya Polubarinova-Kochina
+Marian Pour-El
+Cheryl Praeger
+Malabika Pramanik
+Eleanor C. Pressly
+Emma Previato
+Candice Renee Price
+Rachel Justine Pries
+Hilary Priestley
+Mileva Prvanović
+Ulla Pursiheimo
+Jennifer Quinn
+Ami Radunskaya
+Virginia Ragsdale
+Kavita Ramanan
+Mythily Ramaswamy
+Susan Miller Rambo
+Sujatha Ramdorai
+Saly Ruth Ramler
+Helena Rasiowa
+Marina Ratner
+Geneviève Raugel
+Ethel Raybould
+Mary Rees
+Mina Rees
+Sarah Rees
+Karin Reich
+Anna Barbara Reinhart
+Idun Reiten
+Yuriko Renardy
+Barbara Reys
+Ida Rhodes
+Marjorie Rice
+Christine Riedtmann
+Eleanor Rieffel
+Carol Jane Anger Rieke
+Beatrice Rivière
+Catherine A. Roberts
+Siobhan Roberts
+Julia Robinson
+Margaret M. Robinson
+Alvany Rocha
+Alice Rogers
+Judith Roitman
+Marian P. Roque
+Frances A. Rosamond
+Mary G. Ross
+Alice Roth
+Linda Preiss Rothschild
+Christel Rotthaus
+Christiane Rousseau
+Marie-Françoise Roy
+Jean E. Rubin
+Mary Ellen Rudin
+Mari-Jo P. Ruiz
+Iris Runge
+Mary Beth Ruskai
+Barbara Falkenbach Ryan
+Cora Sadosky
+Claudia Sagastizábal
+Laure Saint-Raymond
+Ayşe Şahin
+Graciela Salicrup
+Judith D. Sally
+Sema Salur
+Jean E. Sammet
+Mildred Sanderson
+Marta Sanz-Solé
+Winifred Sargent
+Ruth Lyttle Satter
+Linda Gilbert Saucier
+Lisa Sauermann
+Carla Savage
+Karen Saxe
+Jane Cronin Scanlon
+Alice T. Schafer
+Mary Schaps
+Doris Schattschneider
+Michelle Schatzman
+Katya Scheinberg
+Anne Schilling
+Tamar Schlick
+Karin Schnass
+Leila Schneps
+Maria E. Schonbek
+Carola-Bibiane Schönlieb
+Marie-Hélène Schwartz
+Jeanette Scissum
+Charlotte Scott
+Jennifer Scott
+Jennifer Seberry
+Rose Whelan Sedgewick
+Esther Seiden
+Annie Selden
+Svetlana Selezneva
+Marjorie Senechal
+Seo Yeongsuhap
+Sylvia Serfaty
+Vera Serganova
+Caroline Series
+Lily Serna
+Brigitte Servatius
+Nataša Šešum
+Mamokgethi Setati
+Betty Shannon
+Tatyana Shaposhnikova
+Mei-Chi Shaw
+Mariya Shcherbina
+Amy Shell-Gellasch
+Diana Shelstad
+Irina Shevtsova
+Brooke Shipley
+Patricia D. Shure
+Lesley Sibner
+Martha Siegel
+Mary Silber
+Alice Silverberg
+Ruth Silverman
+Evelyn Silvia
+Rodica Simion
+Valeria Simoncini
+Hourya Benis Sinaceur
+Nathalie Sinclair
+Sue Singer
+Ajit Iqbal Singh
+Jessica Sklar
+Lucy Joan Slater
+Angela Slavova
+Marian Small
+Ionica Smeets
+Clara Eliza Smith
+Daphne L. Smith
+Karen E. Smith
+Kate Smith-Miles
+Agata Smoktunowicz
+Nina Snaith
+Priyanshi Somani
+Mary Somerville
+Christina Sormani
+Vera T. Sós
+Marilda Sotomayor
+Laila Soueif
+Diane Souvaine
+Ayşe Soysal
+Angela Spalsbury
+Birgit Speh
+Domina Eberle Spencer
+Pauline Sperry
+Dolores Richard Spikes
+Nicole Spillane
+Vera W. de Spinadel
+Jean Springer
+Bhama Srinivasan
+Hema Srinivasan
+Tanja Stadler
+Gigliola Staffilani
+Anna Stafford
+Helene Stähelin
+Gwyneth Stallard
+Zvezdelina Stankova
+Nancy K. Stanton
+Marion Elizabeth Stark
+Anastasia Stavrova
+Jackie Stedall
+Angelika Steger
+Irene Stegun
+Elizabeth Stephansen
+T. Christine Stevens
+Angeline Stickney
+Yvonne Stokes
+Anita Straker
+Anne Penfold Street
+Ileana Streinu
+Catharina Stroppel
+Marilyn Strutchens
+Bella Subbotovskaya
+Indulata Sukla
+Catherine Sulem
+Nike Sun
+Louise Nixon Sutton
+Thyrsa Frazier Svager
+Márta Svéd
+Marcia P. Sward
+Lorna Swain
+Irena Swanson
+Henda Swart
+Esther Szekeres
+Wanda Szmielew
+Zofia Szmydt
+Laura Taalman
+Daina Taimina
+Tan Lei
+Betül Tanbay
+Rosalind Tanner
+Gabriella Tarantello
+Éva Tardos
+Olga Taussky-Todd
+Jean Taylor
+Mina Teicher
+Monique Teillaud
+Montserrat Teixidor i Bigas
+Keti Tenenblat
+M. B. W. Tent
+Chuu-Lian Terng
+Susanna Terracini
+Audrey Terras
+Ngamta Thamwattana
+Theano
+Sister Mary Domitilla Thuener
+Janet Thomas
+Rekha R. Thomas
+Abigail Thompson
+Gillian Thornley
+Ene-Margit Tiit
+Mary Tiles
+Ulrike Tillmann FRS
+Sheila Tinney
+Maryanne Tipler
+Françoise Tisseur
+Jacqueline Naze Tjøtta
+Renate Tobies
+Nicole Tomczak-Jaegermann FRSC
+Antoinette Tordesillas
+Paula Tretkoff
+Mary Esther Trueblood
+Olga Tsuberbiller
+Laurette Tuckerman
+Reidun Twarock
+Regina Tyshkevich
+Olabisi Ugbebor
+Karen Uhlenbeck
+Corinna Ulcigrai
+Nina Uraltseva
+Brigitte Vallée
+Pauline van den Driessche
+Maria Eulália Vares
+Dorothy Vaughan
+Mariel Vázquez
+Argelia Velez-Rodriguez
+Tatyana Velikanova
+Michèle Vergne
+Siobhán Vernon
+Luminița Vese
+Katalin Vesztergombi
+Maryna Viazovska
+Eva Viehmann
+Marie-France Vignéras
+Monica Vișan
+Marie A. Vitulli
+Roxana Vivian
+Karen Vogtmann
+Claire Voisin
+Elisabeth Vreede
+Michelle L. Wachs
+Aissa Wade
+Grace Wahba
+Erica Walker
+Muriel Kennett Wales
+Judy L. Walker
+Mary Shore Walker
+Lynne H. Walling
+Joan E. Walsh
+Marion Walter
+Chelsea Walton
+Yusu Wang
+Wang Zhenyi
+Lesley Ward
+Rachel Ward
+Virginia Warfield
+Mary Wynne Warner
+Simone Warzel
+Talitha Washington
+Sarah L. Waters
+Ann E. Watkins
+Anne Watson
+Charlotte Watts
+Johanna Weber
+Charlotte Wedell
+Suzanne Weekes
+Katrin Wehrheim
+Guofang Wei
+Katrin Wendland
+Annette Werner
+Elisabeth M. Werner
+Eléna Wexler-Kreindler
+Anna Johnson Pell Wheeler
+Mary Wheeler
+Sue Whitesides
+Alice S. Whittemore
+Sylvia Wiegand
+Anna Wienhard
+Amie Wilkinson
+Emily Willbanks
+Karen Willcox
+Elizabeth Williams
+Lauren Williams
+Ruth J. Williams
+Talithia Williams
+Virginia Vassilevska Williams
+Stephanie van Willigenburg
+Helen Wilson
+Ulrica Wilson
+Helen Wily
+Sarah Witherspoon
+Barbara Wohlmuth
+Julia Wolf
+Gail Wolkowicz
+Maria Wonenburger
+Carol Wood
+Melanie Wood
+Sarah Woodhead
+Mary Lee Woods
+Carol S. Woodward
+Margaret H. Wright
+Dorothy Maud Wrinch
+Sijue Wu
+Emily Kathryn Wyant
+Lucy R. Wyatt
+Cynthia Wyels
+Dianna Xu
+Catherine Yan
+Grace Yang
+Sofya Yanovskaya
+Jane Ye
+Karen Yeats
+Florence Yeldham
+Lai-Sang Young
+Virginia R. Young
+Noriko Yui
+Mariette Yvinec
+Sara Zahedi
+Thaleia Zariphopoulou
+Mary Lou Zeeman
+Sarah Zerbes
+Ping Zhang
+Rozetta Zhilina
+Tamar Ziegler
+Magdolna Zimányi
+Ada Lovelace
+Grace Hopper
+Ayame Sohma
+Aoko Mizushiro
+Sarah Waters
+Emma Weaver
+Emma Ng
+Krystal Lamoureux
+Abby Loughran
+Danielle Koestler
+Sara Bartlett
+Pat Leonard
+Patricia Diaz
+Rebecca VanderClute
+Ramona Elmer
+Stephanie Overman
