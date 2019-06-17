@@ -1,7 +1,7 @@
 module Kitbash
-	module Names
-		module Bulk
-			@male = %w(
+  module Names
+    module Bulk
+      @male = %w(
 				Rene
 				Myles
 				Zeke
@@ -1778,7 +1778,7 @@ module Kitbash
 				Jean-louis
 			)
 
-			@female = %w(
+      @female = %w(
 				Belle
 				Arete
 				Alisa
@@ -3870,7 +3870,7 @@ module Kitbash
 				Dawn
 			)
 
-			@surname = %w(
+      @surname = %w(
 				Hur
 				Kerr
 				Suchkov
@@ -8862,19 +8862,19 @@ module Kitbash
 				Andreyushkin
 			)
 
-			def males
-				@male
-			end
+      def males
+        @male
+      end
 
 
-			def females
-				@female
-			end
+      def females
+        @female
+      end
 
 
-			def surnames
-				@surname
-			end
-		end
-	end
+      def surnames
+        @surname
+      end
+    end
+  end
 end

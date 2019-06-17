@@ -78,45 +78,45 @@ end
 
 File.open('bulk.rb', 'w') do |file|
   file.puts 'module Kitbash'
-  file.puts "\tmodule Names"
-  file.puts "\t\tmodule Bulk"
+  file.puts '  module Names'
+  file.puts '    module Bulk'
 
-  file.puts "\t\t\t@male = %w("
+  file.puts '      @male = %w('
   @male_names.each do |name|
-    file.puts "\t\t\t\t#{name}"
+    file.puts "        #{name}"
   end
-  file.puts "\t\t\t)\n\n"
+  file.puts "      )\n\n"
 
-  file.puts "\t\t\t@female = %w("
+  file.puts '      @female = %w('
   @female_names.each do |name|
-    file.puts "\t\t\t\t#{name}"
+    file.puts "        #{name}"
   end
-  file.puts "\t\t\t)\n\n"
+  file.puts "      )\n\n"
 
-  file.puts "\t\t\t@surname = %w("
+  file.puts '      @surname = %w('
   @surnames.each do |name|
-    file.puts "\t\t\t\t#{name}"
+    file.puts "        #{name}"
   end
-  file.puts "\t\t\t)\n\n"
+  file.puts "      )\n\n"
 
-  file.puts "\t\t\tdef Bulk.males"
-  file.puts "\t\t\t\t@male"
-  file.puts "\t\t\tend"
-
-  file.puts "\n\n"
-
-  file.puts "\t\t\tdef Bulk.females"
-  file.puts "\t\t\t\t@female"
-  file.puts "\t\t\tend"
+  file.puts '      def Bulk.males'
+  file.puts '        @male'
+  file.puts '      end'
 
   file.puts "\n\n"
 
-  file.puts "\t\t\tdef Bulk.surnames"
-  file.puts "\t\t\t\t@surname"
-  file.puts "\t\t\tend"
+  file.puts '      def Bulk.females'
+  file.puts '        @female'
+  file.puts '      end'
 
-  file.puts "\t\tend"
-  file.puts "\tend"
+  file.puts "\n\n"
+
+  file.puts '      def Bulk.surnames'
+  file.puts '        @surname'
+  file.puts '      end'
+
+  file.puts '    end'
+  file.puts '  end'
   file.puts 'end'
 end
 
