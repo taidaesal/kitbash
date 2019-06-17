@@ -1,28 +1,28 @@
-Cristina Bicchieri - epistemology of game theory
-Olga Bondareva - Bondareva–Shapley theorem
-Jennifer Tour Chayes - algorithmic game theory and auction algorithms
-Monika Henzinger - algorithmic game theory and information retrieval
-Naira Hovakimyan - differential games and adaptive control
-Anna Karlin - algorithmic game theory and online algorithms
-Sarit Kraus - non-monotonic reasoning
-Julia Robinson - proved that fictitious play dynamics converges to the mixed strategy Nash equilibrium in two-playe
-Suzanne Scotchmer - patent law incentive models
-Myrna Wooders - coalition theory
+Cristina Bicchieri
+Olga Bondareva
+Jennifer Tour Chayes
+Monika Henzinger
+Naira Hovakimyan
+Anna Karlin
+Sarit Kraus
+Julia Robinson
+Suzanne Scotchmer
+Myrna Wooders
 Sofia Vasilyevna Kovalevskaya
 Alicia Boole Stott
-Emmy Noether - algebraic topology
+Emmy Noether
 Maryam Mirzakhani
-Ruth Barcan Marcus (USA
-Susan Haack (UK
-Christine Ladd-Franklin (USA
-Penelope Maddy (USA
-María Manzano(Spain
-Ruth Barcan Marcus (USA
-Sara Negri (Italy/Finland
-Rózsa Péter (Hungary
-Helena Rasiowa (Poland
-Gila Sher (Israel/USA
-Anne Sjerp Troelstra (Netherlands
+Ruth Barcan Marcus
+Susan Haack
+Christine Ladd-Franklin
+Penelope Maddy
+María Manzano
+Ruth Barcan Marcus
+Sara Negri
+Rózsa Péter
+Helena Rasiowa
+Gila Sher
+Anne Sjerp Troelstra
 Karen Aardal
 Hanan Mohamed Abdelrahman
 Izabela Abramowicz
