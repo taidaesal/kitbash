@@ -7,10 +7,12 @@ Gem::Specification.new do |s|
   s.authors = ["taidaesal"]
   s.email = 'taidaesal@outlook.com'
   s.license = 'MIT'
-  s.files = [
-    "lib/kitbash.rb",
-    "lib/names/names.rb",
-    "lib/names/bulk.rb"
-  ]
+  s.files = %w(
+    lib/kitbash.rb
+    lib/names/names.rb
+    lib/names/bulk.rb
+    lib/synonyms/synonyms.rb
+    lib/synonyms/bulk.rb
+  )
   s.require_paths = ["lib"]
 end

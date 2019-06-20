@@ -31,6 +31,32 @@ Produce addresses in the format used by the US, UK, and Canada
 
 Lists of words that might be useful when bashing random descriptions or user bios together
 
+#### Available Methods
+
+**diminutives** - Random word implying small or weak
+
+**organizations** - Random word that can be used in place of "organization"
+
+**software** - Random software name
+
+**sports** - Random sport name
+
+**studies** - Random name of an academic field of study
+
+**superlatives** - Random word implying great or large
+
+**trendy** - Random over-used trendy tech term
+
+**users** - Random word that can be used to mean "user" or "person"
+
+#### Example
+```ruby
+require 'kitbash'
+
+puts "#{Kitbash::Synonyms.trendy}"
+#=> blockchain
+```
+
 ## TextBash
 
 Accept text templates to generate algorithmic variations

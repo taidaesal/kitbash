@@ -33,6 +33,8 @@ build-iPhoneSimulator/
 .idea
 .idea/
 *.xml
+/bulk/bulk.rb
+/bulk/bulk_words.rb
 
 ## Documentation cache and generated files:
 /.yardoc/

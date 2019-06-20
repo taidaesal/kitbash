@@ -1,0 +1,282 @@
+Word
+Excel
+LibreOffice
+Krita
+RubyMine
+IntelliJ
+NetBeans
+Eclipse
+Visual Studio
+DOS
+Windows
+Linux
+Unix
+Mac OS
+Android
+iOS
+OS/2
+Rust
+C
+C++
+Java
+Python
+Ruby
+Lisp
+COBOL
+FORTRAN
+Haskell
+Haxe
+Javascript
+CoffeeScript
+A#
+ALGOL
+Ada
+Amiga E
+AMOS
+APL
+Assembly Language
+AutoLisp
+BASIC
+Bash
+BPEL
+BCPL
+C--
+C*
+C#
+C Shell
+Caml
+Ceylon
+Cg
+Clojure
+CMS-2
+ColdFusion
+Curl
+CPL
+D
+Dart
+dBasic
+eC
+ECMAScript
+EGL
+Emacs Lisp
+Erlang
+F
+F#
+GLD
+GDScript
+Go
+HLSL
+Inform
+J
+J#
+J++
+JavaFX Script
+JScript
+Julia
+Kotlin
+Legoscript
+LISA
+Logo
+LotusScript
+LPC
+LiveCode
+Lua
+MIPS
+Machine code
+Mathematica
+MATLAB
+MDL
+Mesa
+Microcode
+MicroScript
+MUMPS
+Neko
+Nim
+NPL
+Oak
+OBJ2
+Object Lisp
+Object Pascal
+Pascal
+Objective-C
+Objective-J
+OCaml
+Octave
+OpenCL
+PEARL
+Perl
+Perl 6
+PHP
+Pico
+Picolisp
+PLEX
+QtScript
+GPL
+R
+R++
+Racket
+RPG
+Simula
+Smalltalk
+SML
+SQL
+Stada
+Swift
+Tcl
+TeX
+Trac
+TXL
+TypeScript
+Unix shell
+Vim script
+Visual Basic
+Visual Basic .NET
+Visual Fortran
+Visual FoxPro
+Visual J++
+Visual J#
+Visual LISP
+WebAssembly
+Wolfram Language
+X++
+X10
+XBase
+XBase++
+XPath
+XPL
+XSharp
+YAML
+Zeno
+ZetaLisp
+Zsh
+Nano
+Vim
+Emacs
+Notepad
+LaTeX
+Atom
+Vi
+BBEdit
+Gedit
+jEdit
+Komodo Edit
+KWrite
+Leafpad
+MicroEMACS
+Mousepad
+Notepad2
+Notepad++
+NoteTAb
+Sublime Text
+TextPad
+TeXShop
+TextEdit
+TextMate
+Visual Studio Code
+X11 Xedit
+XEDIT
+ed
+nvi
+Pico
+Eclipse
+SlickEdit
+FreeBASIC
+Microsoft Small Basic
+Microsoft Visual Studio
+MonoDevelop
+AppCode
+Code::Blocks
+CodeLite
+CLion
+KDevelop
+Netbeans
+Qt Creator
+LispWorks
+SLIME
+EiffelStudio
+Geany
+KDevelop
+JBuilder
+JCreator
+JDeveloper
+MyEclipse
+Xcode
+CodeLite
+Codeanywhere
+Komodo IDE
+Nodeclipse
+JDeveloper
+Delphi
+Free Pascal IDE
+PocketStudio
+Dev-Pascal
+Dreamweaver
+PHPEclipse
+PhpED Professional
+PHPEdit
+IDLE
+PyCharm
+PyScripter
+Gnome
+KDE
+RStudio
+DrRacket
+ARX
+MOS
+RISC OS
+AmigaOS
+Amiga Unix
+AMSDOS
+CP/M
+SymbOS
+Apple DOX
+Apple Pascal
+ProDOX
+Apple SOS
+Atari DOS
+XTS-400
+BeOS
+Plan 9 from Bell Labs
+CDOS
+AOS
+RDOS
+OS/8
+Chromium OS
+Goobuntu
+Ubuntu
+HDOS
+OS/360
+CP/CMS
+DOS/360
+OS/2 Warp
+AIX
+LynxOS
+Xenix
+MS-DOS
+Windows NT
+Windows CE
+Midori
+NeXTSTEP
+UnixWare
+NetWare
+SCO Unix
+Xenix
+PikeOS
+EXEC I
+EXEC II
+VS/9
+Z80-RIO
+Zorin OS
+BSD
+NetBSD
+OpenBSD
+Darwin
+GNU
+Remix OS
+OpenSolaris
+Solaris
+illumos
+FreeDOS
+Ghost OS
+OSv
+ReactOS
