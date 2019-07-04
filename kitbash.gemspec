@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = %q{kitbash}
   s.version = "0.0.1"
-  s.date = %q{2019-06-15}
+  s.date = %q{2019-07-03}
   s.summary = %q{Kitbash}
   s.description = %q{Kitbash is a gem that lets you generate realistic random data}
   s.authors = ["taidaesal"]
@@ -13,6 +13,8 @@ Gem::Specification.new do |s|
     lib/names/bulk.rb
     lib/synonyms/synonyms.rb
     lib/synonyms/bulk.rb
+    lib/addresses/addresses.rg
+    lib/addresses/bulk.rb
   )
   s.require_paths = ["lib"]
 end

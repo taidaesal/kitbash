@@ -1,3 +1,6 @@
+require 'csv'
+require 'json'
+
 @male_names = []
 @female_names = []
 @surnames = []
@@ -5,6 +8,88 @@
 @studies = []
 @sports = []
 @software = []
+
+@zips = []
+@cities = {}
+@all_cities = [ # init with some of the most common names
+  'Washington',
+  'Springfield',
+  'Franklin',
+  'Lebanon',
+  'Clinton',
+  'Greenville',
+  'Bristol',
+  'Fairview',
+  'Salem',
+  'Madison',
+  'Georgetown',
+  'Arlington',
+  'Ashland',
+  'Dover',
+  'Oxford',
+  'Jackson',
+  'Burlington',
+  'Manchester',
+  'Milton',
+  'Newport',
+  'Auburn',
+  'Centerville',
+  'Clayton',
+  'Dayton',
+  'Lexington',
+  'Milford',
+  'Mount Vernon',
+  'Oakland',
+  'Winchester',
+  'Cleveland',
+  'Hudson',
+  'Kingston',
+  'Riverside',
+  'Peoria'
+]
+@streets = []
+@street_modifiers = [
+  'View',
+  'Center',
+  'Hills',
+  'Way',
+  'Lane',
+  'Lake',
+  'Woods',
+  'Heights',
+  'Park'
+]
+@directions = [
+  'N',
+  'S',
+  'E',
+  'W',
+  'NE',
+  'SE',
+  'SW',
+  'NW',
+]
+
+def string_to_sym(str)
+  str.strip.downcase.gsub(' ', '_').to_sym
+end
+
+def get_ending(num)
+  if (11..13).include?(num % 100)
+    "th"
+  else
+    case num % 10
+    when 1; "st"
+    when 2; "nd"
+    when 3; "rd"
+    else    "th"
+    end
+  end
+end
+
+def ordinalize(num)
+  "#{num}#{get_ending num}"
+end
 
 File.open('male_single.txt', 'r') do |content|
   content.each do |line|
@@ -105,6 +190,56 @@ File.open('software.txt', 'r') do |content|
   end
 end
 
+CSV.foreach('states_zips.csv', headers: true) do |line|
+  @zips.push(
+    {
+      state_name: line['State Name'],
+      state_sym: string_to_sym(line['State Name']),
+      state_abbr: line['ST'],
+      zip_min: line['Zip Min'],
+      zip_max: line['Zip Max']
+    }
+  )
+end
+
+CSV.foreach('state_cities.csv') do |line|
+  state = string_to_sym(line[1])
+  unless @cities.key?(state)
+    @cities[state] = []
+  end
+  unless @all_cities.include?(line[0].strip)
+    @all_cities.push line[0].strip
+  end
+  @cities[state].push(line[0].strip)
+end
+
+# generating street names is a bit more involved
+# @streets = []
+# @street_modifiers = [
+# @directions
+(1..152).each do |num|
+  numeric = ordinalize(num)
+  @streets.push "#{numeric}"
+  @directions.each do |dir|
+    @streets.push "#{dir} #{numeric}"
+  end
+end
+
+File.open('streets.txt', 'r') do |content|
+  content.each do |line|
+    dat = line.strip
+    @streets.push dat
+    @directions.each do |dir|
+      @streets.push "#{dir} #{dat}"
+    end
+    @street_modifiers.each do |mod|
+      @streets.push "#{dat} #{mod}"
+      @directions.each do |dir|
+        @streets.push "#{dir} #{dat} #{mod}"
+      end
+    end
+  end
+end
 
 @male_names = @male_names.shuffle.shuffle
 @female_names = @female_names.shuffle.shuffle
@@ -113,92 +248,125 @@ end
 @sports = @sports.shuffle.shuffle
 @software = @software.shuffle.shuffle
 
-File.open('../lib/names/bulk.rb', 'w') do |file|
-  file.puts 'module Kitbash'
-  file.puts '  module Names'
-  file.puts '    module Bulk'
+if false
+  File.open('../lib/names/bulk.rb', 'w') do |file|
+    file.puts 'module Kitbash'
+    file.puts '  module Names'
+    file.puts '    module Bulk'
 
-  file.puts '      @male = %w('
-  @male_names.each do |name|
-    file.puts "        #{name}"
+    file.puts '      @male = %w('
+    @male_names.each do |name|
+      file.puts "        #{name}"
+    end
+    file.puts "      )\n\n"
+
+    file.puts '      @female = %w('
+    @female_names.each do |name|
+      file.puts "        #{name}"
+    end
+    file.puts "      )\n\n"
+
+    file.puts '      @surname = %w('
+    @surnames.each do |name|
+      file.puts "        #{name}"
+    end
+    file.puts "      )\n\n"
+
+    file.puts '      def Bulk.males'
+    file.puts '        @male'
+    file.puts '      end'
+
+    file.puts "\n\n"
+
+    file.puts '      def Bulk.females'
+    file.puts '        @female'
+    file.puts '      end'
+
+    file.puts "\n\n"
+
+    file.puts '      def Bulk.surnames'
+    file.puts '        @surname'
+    file.puts '      end'
+
+    file.puts '    end'
+    file.puts '  end'
+    file.puts 'end'
   end
-  file.puts "      )\n\n"
-
-  file.puts '      @female = %w('
-  @female_names.each do |name|
-    file.puts "        #{name}"
-  end
-  file.puts "      )\n\n"
-
-  file.puts '      @surname = %w('
-  @surnames.each do |name|
-    file.puts "        #{name}"
-  end
-  file.puts "      )\n\n"
-
-  file.puts '      def Bulk.males'
-  file.puts '        @male'
-  file.puts '      end'
-
-  file.puts "\n\n"
-
-  file.puts '      def Bulk.females'
-  file.puts '        @female'
-  file.puts '      end'
-
-  file.puts "\n\n"
-
-  file.puts '      def Bulk.surnames'
-  file.puts '        @surname'
-  file.puts '      end'
-
-  file.puts '    end'
-  file.puts '  end'
-  file.puts 'end'
 end
 
-File.open('../lib/synonyms/bulk.rb', 'w') do |file|
-  file.puts 'module Kitbash'
-  file.puts '  module Synonyms'
-  file.puts '    module Bulk'
+if false
+  File.open('../lib/synonyms/bulk.rb', 'w') do |file|
+    file.puts 'module Kitbash'
+    file.puts '  module Synonyms'
+    file.puts '    module Bulk'
 
-  file.puts '      @sport = ['
-  @sports.each do |word|
-    file.puts "        \"#{word}\","
+    file.puts '      @sport = ['
+    @sports.each do |word|
+      file.puts "        \"#{word}\","
+    end
+    file.puts "      ]\n\n"
+
+    file.puts '      @study = ['
+    @studies.each do |word|
+      file.puts "        \"#{word}\","
+    end
+    file.puts "      ]\n\n"
+
+    file.puts '      @programs = ['
+    @software.each do |word|
+      file.puts "        \"#{word}\","
+    end
+    file.puts "      ]\n\n"
+
+    file.puts '      def Bulk.sports'
+    file.puts '        @sport'
+    file.puts '      end'
+
+    file.puts "\n\n"
+
+    file.puts '      def Bulk.software'
+    file.puts '        @programs'
+    file.puts '      end'
+
+    file.puts "\n\n"
+
+    file.puts '      def Bulk.studies'
+    file.puts '        @study'
+    file.puts '      end'
+
+    file.puts '    end'
+    file.puts '  end'
+    file.puts 'end'
   end
-  file.puts "      ]\n\n"
+end
 
-  file.puts '      @study = ['
-  @studies.each do |word|
-    file.puts "        \"#{word}\","
+if true
+  File.open('../lib/addresses/bulk.rb', 'w') do |file|
+    file.puts 'module Kitbash'
+    file.puts '  module Addresses'
+    file.puts '    module Bulk'
+
+    file.puts "      @zip_codes = #{JSON.pretty_generate @zips}"
+
+    file.puts ''
+    file.puts ''
+
+    file.puts "      @cities = #{JSON.pretty_generate @cities}"
+
+    file.puts ''
+    file.puts ''
+
+    file.puts "      @all_cities = #{JSON.pretty_generate @all_cities}"
+
+    file.puts ''
+    file.puts ''
+
+    file.puts "      @streets = #{JSON.pretty_generate @streets}"
+
+    file.puts '    end'
+    file.puts '  end'
+    file.puts 'end'
   end
-  file.puts "      ]\n\n"
-
-  file.puts '      @programs = ['
-  @software.each do |word|
-    file.puts "        \"#{word}\","
-  end
-  file.puts "      ]\n\n"
-
-  file.puts '      def Bulk.sports'
-  file.puts '        @sport'
-  file.puts '      end'
-
-  file.puts "\n\n"
-
-  file.puts '      def Bulk.software'
-  file.puts '        @programs'
-  file.puts '      end'
-
-  file.puts "\n\n"
-
-  file.puts '      def Bulk.studies'
-  file.puts '        @study'
-  file.puts '      end'
-
-  file.puts '    end'
-  file.puts '  end'
-  file.puts 'end'
 end
 
 puts "Male Names: #{@male_names.count}"
@@ -211,3 +379,9 @@ puts ''
 puts "Sports Options: #{@sports.count}"
 puts "Studies Options: #{@studies.count}"
 puts "Software Options: #{@software.count}"
+
+puts ''
+puts ''
+puts "states with cities: #{@cities.count}"
+puts "cities: #{@all_cities.count}"
+puts "streets: #{@streets.count}"
