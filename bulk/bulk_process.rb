@@ -285,7 +285,7 @@ if false
   end
 end
 
-if true
+if false
   File.open('../lib/kitbash/bulk/synonym_bulk.rb', 'w') do |file|
     file.puts 'module Kitbash'
     file.puts '  module Bulk'

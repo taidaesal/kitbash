@@ -78,7 +78,138 @@ puts "#{Kitbash::Synonyms.trendy}"
 
 ## TextBash
 
-Accept text templates to generate algorithmic variations
+Accept text templates to generate algorithmic variations.
+
+#### Sections
+The basic structure is a list of sections. A section is defined as
+```
+section_name:{section content}
+```
+In the above example, `section_name` can include any alphanumeric character as well as `_`. There can be spaces around `:` as well as after the `{` or before the `}`. In this example, `section content` is what would be substituted when `section_name` is invoked.
+
+#### Multiple choice content
+In the last section we looked at a section with a single string it could resolve to, `section content`, but it is possible to define sections which have multiple ways to be resolved. For example:
+```
+section_name:{one | two | three}
+```
+each time `section_name` is invoked it will resolve to either `one`, `two`, or `three`. There does not need to be spaces around the `|` but it improves readability. When the input is processed these extra spaces are removed.
+
+#### Invoking sections
+A section can be invoked inside another section by putting the section's name inside `[]`. For example:
+```
+section_one:{world}
+section_two:{hello [section_one]}
+```
+This above example will resolve to `hello world`. Note that when invoking a section it is sensitive to spaces and capitalization. So the following three invocations are not equivalent.
+```
+[section_name]
+[ section_name]
+[Section_Name]
+```
+
+#### Main section
+There must be a section named `main` where evaluation will start. For example:
+```
+opening:{hello | greetings}
+main: {[opening] world!}
+```
+This code will evaluate to either `hello world!` or `greetings world!`
+
+the main section can not contain any "|" characters. If it does, only the first part is used
+```
+main:{first part | second part}
+```
+Will always evaluate to be equivalent to
+```
+main:{first part}
+```
+
+
+#### Nested invocations
+Any section can invoke any other section. For example, the code in the last section could also be written as:
+```
+opening:{hello | greetings}
+phrase:{[opening] world!}
+main:{[phrase]}
+```
+This can be nested as deeply as desired.
+
+#### Functions
+Functions can be invoked within any of the sections by calling the function name inside `@...@`. For example:
+```
+with_function:{hello from the function: @foo@}
+```
+
+#### Default functions
+This supports default functions provided by `Kitbash::Names` and `Kitbash::Synonyms`. So you can make code like:
+```
+main:{Hello @male_name@!}
+```
+This might evaluate to `Hello Mathys Loginov!`
+
+The full list of method names are as follows
+ * name
+ * male_name
+ * female_name
+ * diminutive
+ * organization
+ * software
+ * sports
+ * studies
+ * superlative
+ * trendy
+ * user
+
+#### Custom functions
+Custom functions can be created as lambdas and passed to the `TextBash` object with the `add_method` method
+```ruby
+input_string = """
+  main: {random_number: @print_rand@}
+"""
+
+cmd = Kitbash::TextBash.new input_string
+
+custom_function = -> do
+  SecureRandom.random_number(100)
+end
+
+cmd.add_method 'print_rand', custom_function
+
+cmd.generate
+
+#=> "random_number: 27"
+```
+
+### Example
+This is an example of a full test of the `TextBash` class
+```ruby
+local_function = -> do
+    SecureRandom.random_number(100)
+end
+
+input_argument = """
+arg_a: {one}
+arg_b: {two}
+arg_c: {[arg_a] | [arg_b]}
+arg_d: {phrase one | phrase two | phrase three | phrase four | phrase five | phrase six | phrase seven | phrase eight | phrase nine | phrase ten}
+name_args: {@male_name@ | @female_name@}
+main: {
+  Hello [name_args], I hope you're having a @superlative@ day learning about @trendy@. This is
+arg_a \"[arg_a]\" and this is arg_c \"[arg_c]\". Now here we have arg_d \"[arg_d]\" and a second arg_d \"[arg_d]\".
+
+random number: @local_function@
+}
+"""
+
+obj = Kitbash::TextBash.new input_argument
+obj.add_method('local_function', local_function)
+puts obj.generate
+
+#=> Hello Alannah Dupre, I hope you're having a perfect day learning about blockchain. This is
+#=> arg_a "one" and this is arg_c "two". Now here we have arg_d "phrase eight" and a second arg_d "phrase two".
+#=>
+#=> random number: 5
+```
 
 ## Images
 
