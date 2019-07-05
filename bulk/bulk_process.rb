@@ -196,8 +196,8 @@ CSV.foreach('states_zips.csv', headers: true) do |line|
       state_name: line['State Name'],
       state_sym: string_to_sym(line['State Name']),
       state_abbr: line['ST'],
-      zip_min: line['Zip Min'],
-      zip_max: line['Zip Max']
+      zip_min: line['Zip Min'].to_i,
+      zip_max: line['Zip Max'].to_i
     }
   )
 end
@@ -341,27 +341,35 @@ if false
 end
 
 if true
-  File.open('../lib/addresses/bulk.rb', 'w') do |file|
+  File.open('../lib/kitbash/bulk/address_bulk.rb', 'w') do |file|
     file.puts 'module Kitbash'
-    file.puts '  module Addresses'
-    file.puts '    module Bulk'
+    file.puts '  module Bulk'
+    file.puts '    module AddressBulk'
 
-    file.puts "      @zip_codes = #{JSON.pretty_generate @zips}"
-
-    file.puts ''
-    file.puts ''
-
-    file.puts "      @cities = #{JSON.pretty_generate @cities}"
+    file.puts '      def all_cities'
+    file.puts "        @@all_cities ||= #{JSON.pretty_generate @all_cities}"
+    file.puts '      end'
 
     file.puts ''
     file.puts ''
 
-    file.puts "      @all_cities = #{JSON.pretty_generate @all_cities}"
+    file.puts '      def cities'
+    file.puts "        @@cities ||= #{JSON.pretty_generate @cities}"
+    file.puts '      end'
 
     file.puts ''
     file.puts ''
 
-    file.puts "      @streets = #{JSON.pretty_generate @streets}"
+    file.puts '      def streets'
+    file.puts "        @@streets ||= #{JSON.pretty_generate @streets}"
+    file.puts '      end'
+
+    file.puts ''
+    file.puts ''
+
+    file.puts '      def zip_codes'
+    file.puts "        @@zip_codes ||= #{JSON.pretty_generate @zips}"
+    file.puts '      end'
 
     file.puts '    end'
     file.puts '  end'

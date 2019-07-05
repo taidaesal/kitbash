@@ -13,8 +13,9 @@ Gem::Specification.new do |s|
     lib/names/bulk.rb
     lib/synonyms/synonyms.rb
     lib/synonyms/bulk.rb
-    lib/addresses/addresses.rg
-    lib/addresses/bulk.rb
+    lib/kitbash/addresses.rb
+    lib/kitbash/bulk.rb
+    lib/kitbash/bulk/address_bulk.rb
   )
   s.require_paths = ["lib"]
 end

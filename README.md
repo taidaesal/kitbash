@@ -25,7 +25,26 @@ puts "#{Kitbash::Names.male_name}"
 
 ## Addresses
 
-Produce addresses in the format used by the US, UK, and Canada
+Produce addresses in the format used by the US. Adding UK and Canadian addresses might be a future target
+
+#### Available Methods
+
+**random_addr** - Random US address. Takes two bools, the first one controls whether the output is formated. The second controls whether the city is accurate to the state
+
+**random_city_state** - Get a random state, city, and zip. Zip code is accurate to the state. Takes a bool that controls whether the city is accurate to the state
+
+**random_street_addr** - Get a random street address
+
+#### Example
+```ruby
+require 'kitbash'
+
+addr = Kitbash::Addresses.random_addr
+puts "#{addr[0]}"
+puts "#{addr[1]}"
+#=> 2635 SW Pacific Lamprey Lane DR
+#=> Temecula, TX 79679
+```
 
 ## Synonyms
 
