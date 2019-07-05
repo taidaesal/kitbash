@@ -1,6 +1,6 @@
 module Kitbash
-  module Synonyms
-    require 'synonyms/bulk'
+  class Synonyms
+    extend Bulk::SynonymBulk
 
     @diminutives = %w(
       weak
@@ -126,7 +126,7 @@ module Kitbash
       substantial
     )
 
-    @trendy = %w(
+    @trendy_words = %w(
       blockchain
       IOT-Ready
       IOT
@@ -177,42 +177,42 @@ module Kitbash
       human
     )
 
-    def Synonyms.diminutives
+    def self.diminutive
       index = SecureRandom.random_number(@diminutives.count)
       @diminutives[index]
     end
 
-    def Synonyms.organizations
+    def self.organization
       index = SecureRandom.random_number(@organizations.count)
       @organizations[index]
     end
 
-    def Synonyms.software
-      index = SecureRandom.random_number(Bulk.software.count)
-      Bulk.software[index]
+    def self.software
+      index = SecureRandom.random_number(software_names.count)
+      software_names[index]
     end
 
-    def Synonyms.sports
-      index = SecureRandom.random_number(Bulk.sports.count)
-      Bulk.sports[index]
+    def self.sports
+      index = SecureRandom.random_number(sport_names.count)
+      sport_names[index]
     end
 
-    def Synonyms.studies
-      index = SecureRandom.random_number(Bulk.studies.count)
-      Bulk.studies[index]
+    def self.studies
+      index = SecureRandom.random_number(study_name.count)
+      study_name[index]
     end
 
-    def Synonyms.superlatives
+    def self.superlative
       index = SecureRandom.random_number(@superlatives.count)
       @superlatives[index]
     end
 
-    def Synonyms.trendy
-      index = SecureRandom.random_number(@trendy.count)
-      @trendy[index]
+    def self.trendy
+      index = SecureRandom.random_number(@trendy_words.count)
+      @trendy_words[index]
     end
 
-    def Synonyms.users
+    def self.user
       index = SecureRandom.random_number(@users.count)
       @users[index]
     end

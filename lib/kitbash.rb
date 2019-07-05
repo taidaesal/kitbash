@@ -1,8 +1,8 @@
 require 'kitbash/bulk'
 require 'kitbash/addresses'
+require 'kitbash/names'
+require 'kitbash/synonyms'
 
 module Kitbash
   require 'securerandom'
-  require 'names/names'
-  require 'synonyms/synonyms'
 end

@@ -214,9 +214,6 @@ CSV.foreach('state_cities.csv') do |line|
 end
 
 # generating street names is a bit more involved
-# @streets = []
-# @street_modifiers = [
-# @directions
 (1..152).each do |num|
   numeric = ordinalize(num)
   @streets.push "#{numeric}"
@@ -249,89 +246,37 @@ end
 @software = @software.shuffle.shuffle
 
 if false
-  File.open('../lib/names/bulk.rb', 'w') do |file|
+  File.open('../lib/kitbash/bulk/names_bulk.rb', 'w') do |file|
     file.puts 'module Kitbash'
-    file.puts '  module Names'
-    file.puts '    module Bulk'
+    file.puts '  module Bulk'
+    file.puts '    module NamesBulk'
 
-    file.puts '      @male = %w('
+    file.puts '      def males'
+    file.puts '        @@males ||= %w('
     @male_names.each do |name|
-      file.puts "        #{name}"
+      file.puts "          #{name}"
     end
-    file.puts "      )\n\n"
+    file.puts '        )'
+    file.puts '      end'
 
-    file.puts '      @female = %w('
+    file.puts "\n\n"
+
+    file.puts '      def females'
+    file.puts '        @@females ||= %w('
     @female_names.each do |name|
-      file.puts "        #{name}"
+      file.puts "          #{name}"
     end
-    file.puts "      )\n\n"
+    file.puts '        )'
+    file.puts '      end'
 
-    file.puts '      @surname = %w('
+    file.puts "\n\n"
+
+    file.puts '      def surnames'
+    file.puts '        @@surnames ||= %w('
     @surnames.each do |name|
-      file.puts "        #{name}"
+      file.puts "          #{name}"
     end
-    file.puts "      )\n\n"
-
-    file.puts '      def Bulk.males'
-    file.puts '        @male'
-    file.puts '      end'
-
-    file.puts "\n\n"
-
-    file.puts '      def Bulk.females'
-    file.puts '        @female'
-    file.puts '      end'
-
-    file.puts "\n\n"
-
-    file.puts '      def Bulk.surnames'
-    file.puts '        @surname'
-    file.puts '      end'
-
-    file.puts '    end'
-    file.puts '  end'
-    file.puts 'end'
-  end
-end
-
-if false
-  File.open('../lib/synonyms/bulk.rb', 'w') do |file|
-    file.puts 'module Kitbash'
-    file.puts '  module Synonyms'
-    file.puts '    module Bulk'
-
-    file.puts '      @sport = ['
-    @sports.each do |word|
-      file.puts "        \"#{word}\","
-    end
-    file.puts "      ]\n\n"
-
-    file.puts '      @study = ['
-    @studies.each do |word|
-      file.puts "        \"#{word}\","
-    end
-    file.puts "      ]\n\n"
-
-    file.puts '      @programs = ['
-    @software.each do |word|
-      file.puts "        \"#{word}\","
-    end
-    file.puts "      ]\n\n"
-
-    file.puts '      def Bulk.sports'
-    file.puts '        @sport'
-    file.puts '      end'
-
-    file.puts "\n\n"
-
-    file.puts '      def Bulk.software'
-    file.puts '        @programs'
-    file.puts '      end'
-
-    file.puts "\n\n"
-
-    file.puts '      def Bulk.studies'
-    file.puts '        @study'
+    file.puts '        )'
     file.puts '      end'
 
     file.puts '    end'
@@ -341,6 +286,46 @@ if false
 end
 
 if true
+  File.open('../lib/kitbash/bulk/synonym_bulk.rb', 'w') do |file|
+    file.puts 'module Kitbash'
+    file.puts '  module Bulk'
+    file.puts '    module SynonymBulk'
+
+    file.puts '      def sport_names'
+    file.puts '        @@sport_names ||= ['
+    @sports.each do |word|
+      file.puts "          \"#{word}\","
+    end
+    file.puts '        ]'
+    file.puts '      end'
+
+    file.puts "\n\n"
+
+    file.puts '      def software_names'
+    file.puts '        @@software_names ||= ['
+    @software.each do |word|
+      file.puts "          \"#{word}\","
+    end
+    file.puts '        ]'
+    file.puts '      end'
+
+    file.puts "\n\n"
+
+    file.puts '      def study_name'
+    file.puts '        @@study_name ||= ['
+    @studies.each do |word|
+      file.puts "          \"#{word}\","
+    end
+    file.puts '        ]'
+    file.puts '      end'
+
+    file.puts '    end'
+    file.puts '  end'
+    file.puts 'end'
+  end
+end
+
+if false
   File.open('../lib/kitbash/bulk/address_bulk.rb', 'w') do |file|
     file.puts 'module Kitbash'
     file.puts '  module Bulk'

@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.files = %w(
     lib/kitbash.rb
-    lib/names/names.rb
-    lib/names/bulk.rb
-    lib/synonyms/synonyms.rb
-    lib/synonyms/bulk.rb
+    lib/kitbash/names.rb
+    lib/kitbash/synonyms.rb
     lib/kitbash/addresses.rb
     lib/kitbash/bulk.rb
     lib/kitbash/bulk/address_bulk.rb
+    lib/kitbash/bulk/names_bulk.rb
+    lib/kitbash/bulk/synonym_bulk.rb
   )
   s.require_paths = ["lib"]
 end

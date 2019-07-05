@@ -52,9 +52,9 @@ Lists of words that might be useful when bashing random descriptions or user bio
 
 #### Available Methods
 
-**diminutives** - Random word implying small or weak
+**diminutive** - Random word implying small or weak
 
-**organizations** - Random word that can be used in place of "organization"
+**organization** - Random word that can be used in place of "organization"
 
 **software** - Random software name
 
@@ -66,7 +66,7 @@ Lists of words that might be useful when bashing random descriptions or user bio
 
 **trendy** - Random over-used trendy tech term
 
-**users** - Random word that can be used to mean "user" or "person"
+**user** - Random word that can be used to mean "user" or "person"
 
 #### Example
 ```ruby
