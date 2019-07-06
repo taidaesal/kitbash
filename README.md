@@ -210,11 +210,3 @@ puts obj.generate
 #=>
 #=> random number: 5
 ```
-
-## Images
-
-Generate images that can be used as thumbnails or user icons
-
-Right now this is just an interesting idea that may or may not pan out. But it would be nice to be able to generate simple images to provide a bit of visual variety.
-
-Examples might include a user silhouette against an optional geometric shape against a background. Each of these three elements would be a randomly-selected color (maybe introduce a simple color-wheel scheme to keep anything too garish from happening?)

@@ -94,20 +94,23 @@ module Kitbash
     end
 
     def process_output_text(inpt)
+      continue = true
       outpt = inpt
-      inpt.scan(REPLACEMENT_FORMAT) do |section|
-        opt = get_section_output section[0]
-        outpt = outpt.sub(/\[#{section[0]}\]/, "#{opt}")
+      while continue
+        inpt = outpt
+        inpt.scan(REPLACEMENT_FORMAT) do |section|
+          opt = get_section_output section[0]
+          outpt = outpt.sub(/\[#{section[0]}\]/, "#{opt}")
+        end
+        inpt.scan(FUNCTION_FORMAT) do |fun|
+          opt = evaluate_function fun[0]
+          outpt = outpt.sub(/@#{fun[0]}@/, "#{opt}")
+        end
+        unless outpt.match?(REPLACEMENT_FORMAT) || outpt.match?(FUNCTION_FORMAT)
+          continue = false
+        end
       end
-      inpt.scan(FUNCTION_FORMAT) do |fun|
-        opt = evaluate_function fun[0]
-        outpt = outpt.sub(/@#{fun[0]}@/, "#{opt}")
-      end
-      if outpt.match?(REPLACEMENT_FORMAT) || outpt.match?(FUNCTION_FORMAT)
-        process_output_text outpt
-      else
-        outpt
-      end
+      outpt
     end
 
     def process_raw
