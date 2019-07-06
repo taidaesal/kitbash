@@ -76,6 +76,33 @@ puts "#{Kitbash::Synonyms.trendy}"
 #=> blockchain
 ```
 
+## ImageGenerator
+
+Generate simple images. All images start with a random background color and a user-specified number of simple geometric shapes are added on top of that, each with a random color. The constructor takes a width and height argument which will be used for all images generated from that class instance. This is because it's intended to be used to generate a batch of images for profile pictures or something similar. Because of this, we just go ahead and assume they should all be the same size.
+
+#### Available Methods
+
+Note: All methods take two arguments, an integer specifying how many geometric elements should be put on the image and a float between 0 and 1 which specifies what proportion of the width of the image can be taken up by each individual element. The default for the second argument is `0.5`.
+
+**draw_circles** - Returns an image with circles drawn on it
+
+**draw_random** - Returns an image with circles, rectangles, and squares drawn on it
+
+**draw_rectangles** - Returns an image with rectangles drawn on it
+
+**draw_squares** - Returns an image with squares drawn on it
+
+#### Example
+```ruby
+require 'kitbash'
+
+gen = Kitbash::ImageGenerator.new(500, 500)
+gen.draw_circles(10).save('circles.png')
+gen.draw_random(10).save('random.png')
+gen.draw_rectangles(10).save('rectangles.png')
+gen.draw_squares(10).save('squares.png')
+```
+
 ## TextBash
 
 Accept text templates to generate algorithmic variations.
@@ -183,6 +210,9 @@ cmd.generate
 ### Example
 This is an example of a full test of the `TextBash` class
 ```ruby
+require 'kitbash'
+require 'securerandom'
+
 local_function = -> do
     SecureRandom.random_number(100)
 end

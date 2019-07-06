@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = %q{kitbash}
-  s.version = "1.0.0"
-  s.date = %q{2019-05-03}
+  s.version = "1.1.0"
+  s.date = %q{2019-07-06}
   s.summary = %q{Kitbash}
   s.homepage = %q{https://github.com/taidaesal}
   s.description = %q{Kitbash is a gem that lets you generate realistic random data}
@@ -15,9 +15,11 @@ Gem::Specification.new do |s|
     lib/kitbash/addresses.rb
     lib/kitbash/bulk.rb
     lib/kitbash/text_bash.rb
+    lib/kitbash/image_generator.rb
     lib/kitbash/bulk/address_bulk.rb
     lib/kitbash/bulk/names_bulk.rb
     lib/kitbash/bulk/synonym_bulk.rb
   )
   s.require_paths = ["lib"]
+  s.add_runtime_dependency 'chunky_png', '~> 1.3', '>= 1.3.11'
 end

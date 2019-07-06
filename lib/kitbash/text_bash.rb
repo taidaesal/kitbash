@@ -75,7 +75,7 @@ module Kitbash
         if self.respond_to? fun
           self.send(fun)
         else
-          raise "Can't find function named '#{fun}'. Note section names are case and space-sensitive."
+          raise "Can't find function named '#{fun}'. Note function names are case and space-sensitive."
         end
       end
     end
