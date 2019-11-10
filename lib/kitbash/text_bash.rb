@@ -136,6 +136,10 @@ module Kitbash
           opt = evaluate_function fun[0]
           outpt = outpt.sub(/@#{fun[0]}@/, "#{opt}")
         end
+        inpt.scan(VARIABLE_FORMAT) do |var|
+          opt = evaluate_variable var[0]
+          outpt = outpt.sub(/\$#{var[0]}\$/, "#{opt}")
+        end
         unless outpt.match?(REPLACEMENT_FORMAT) || outpt.match?(FUNCTION_FORMAT)
           continue = false
         end

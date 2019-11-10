@@ -135,7 +135,7 @@ This above example will resolve to `hello world`. Note that when invoking a sect
 ```
 
 #### Main section
-There must be a section named `main` where evaluation will start. For example:
+There must be an entr point section for the program. By default, this section is `main` but you can give a custom name
 ```
 opening:{hello | greetings}
 main: {[opening] world!}
@@ -149,6 +149,17 @@ main:{first part | second part}
 Will always evaluate to be equivalent to
 ```
 main:{first part}
+```
+
+#### Custom entry-point section
+```
+entry: {hello world}
+```
+
+To use `entry` as the entry point use the following ruby code:
+```ruby
+obj = Kitbash::TextBash.new input_argument, 'entry'
+puts obj.generate
 ```
 
 
@@ -177,13 +188,16 @@ This might evaluate to `Hello Mathys Loginov!`
 The full list of method names are as follows
  * name
  * male_name
+ * male_name_first
  * female_name
+ * female_name_first
  * diminutive
  * organization
  * software
  * sports
  * studies
  * superlative
+ * surname
  * trendy
  * user
 
@@ -207,7 +221,7 @@ cmd.generate
 #=> "random_number: 27"
 ```
 
-### Example
+### Examples
 This is an example of a full test of the `TextBash` class
 ```ruby
 require 'kitbash'
@@ -239,4 +253,23 @@ puts obj.generate
 #=> arg_a "one" and this is arg_c "two". Now here we have arg_d "phrase eight" and a second arg_d "phrase two".
 #=>
 #=> random number: 5
+```
+
+Below is an example of using variables in textbash
+```ruby
+input = """
+$boy_1 = {@male_name_first@}
+$boy_2 = {John}
+$girl_1 = {[girl_names]}
+girl_names:{Jane | Jill}
+
+story: {
+  $girl_1$ likes $boy_1$ but unfortunately for her, $boy_1$ likes $boy_2$
+}
+"""
+
+txt = Kitbash::TextBash.new input, 'story'
+puts txt.generate
+
+#=> Jill likes Myron but unfortunately for her, Myron likes John
 ```
