@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = %q{kitbash}
-  s.version = "1.2.0"
-  s.date = %q{2019-11-09}
+  s.version = "1.2.1"
+  s.date = %q{2020-03-18}
   s.summary = %q{Kitbash}
   s.homepage = %q{https://github.com/taidaesal}
   s.description = %q{Kitbash is a gem that lets you generate realistic random data}

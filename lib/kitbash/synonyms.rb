@@ -178,43 +178,35 @@ module Kitbash
     )
 
     def self.diminutive
-      index = SecureRandom.random_number(@diminutives.count)
-      @diminutives[index]
+      @diminutives.sample
     end
 
     def self.organization
-      index = SecureRandom.random_number(@organizations.count)
-      @organizations[index]
+      @organizations.sample
     end
 
     def self.software
-      index = SecureRandom.random_number(software_names.count)
-      software_names[index]
+      software_names.sample
     end
 
     def self.sports
-      index = SecureRandom.random_number(sport_names.count)
-      sport_names[index]
+      sport_names.sample
     end
 
     def self.studies
-      index = SecureRandom.random_number(study_name.count)
-      study_name[index]
+      study_name.sample
     end
 
     def self.superlative
-      index = SecureRandom.random_number(@superlatives.count)
-      @superlatives[index]
+      @superlatives.sample
     end
 
     def self.trendy
-      index = SecureRandom.random_number(@trendy_words.count)
-      @trendy_words[index]
+      @trendy_words.sample
     end
 
     def self.user
-      index = SecureRandom.random_number(@users.count)
-      @users[index]
+      @users.sample
     end
   end
 end

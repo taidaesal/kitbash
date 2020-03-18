@@ -3,25 +3,19 @@ module Kitbash
     extend Bulk::NamesBulk
 
     def self.female_name
-      first = SecureRandom.random_number(females.count)
-      last = SecureRandom.random_number(surnames.count)
-      "#{females[first]} #{surnames[last]}"
+      "#{females.sample} #{surnames.sample}"
     end
 
     def self.female_name_first
-      first = SecureRandom.random_number(females.count)
-      females[first]
+      females.sample
     end
 
     def self.male_name
-      first = SecureRandom.random_number(males.count)
-      last = SecureRandom.random_number(surnames.count)
-      "#{males[first]} #{surnames[last]}"
+      "#{males.sample} #{surnames.sample}"
     end
 
     def self.male_name_first
-      first = SecureRandom.random_number(males.count)
-      males[first]
+      males.sample
     end
 
     def self.name
@@ -34,8 +28,7 @@ module Kitbash
     end
 
     def self.surname
-      last = SecureRandom.random_number(surnames.count)
-      surnames[last]
+      surnames.sample
     end
   end
 end

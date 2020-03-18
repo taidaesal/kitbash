@@ -2,76 +2,76 @@ module Kitbash
   class Addresses
     extend Bulk::AddressBulk
 
-    @@street_types = [
-      "ALY",
-      "ANX",
-      "ARC",
-      "AVE",
-      "BLF",
-      "BTM",
-      "BLVD",
-      "BRG",
-      "BRK",
-      "BG",
-      "BYP",
-      "CSWY",
-      "CTR",
-      "CIR",
-      "CLF",
-      "CLB",
-      "CT",
-      "CRST",
-      "XING",
-      "CURV",
-      "DV",
-      "DR",
-      "ESTS",
-      "EXT",
-      "FLS",
-      "FRY",
-      "FLD",
-      "FRD",
-      "FRST",
-      "FRG",
-      "FRK",
-      "FT",
-      "FWY",
-      "GRN",
-      "GRV",
-      "HBR",
-      "HVN",
-      "HTS",
-      "HWY",
-      "HL",
-      "IS",
-      "LNDG",
-      "LOOP",
-      "MALL",
-      "MTWY",
-      "PARK",
-      "PKWY",
-      "PASS",
-      "PATH",
-      "PT",
-      "PRT",
-      "PR",
-      "RADL",
-      "RNCH",
-      "RPD",
-      "RIV",
-      "RD",
-      "ROW",
-      "RUN",
-      "SKWY",
-      "SPUR",
-      "ST",
-      "TUNL",
-      "TPKE",
-      "VLY",
-      "WALK",
-      "WALL",
-      "WAY",
-    ]
+    @@street_types = %w(
+      ALY
+      ANX
+      ARC
+      AVE
+      BLF
+      BTM
+      BLVD
+      BRG
+      BRK
+      BG
+      BYP
+      CSWY
+      CTR
+      CIR
+      CLF
+      CLB
+      CT
+      CRST
+      XING
+      CURV
+      DV
+      DR
+      ESTS
+      EXT
+      FLS
+      FRY
+      FLD
+      FRD
+      FRST
+      FRG
+      FRK
+      FT
+      FWY
+      GRN
+      GRV
+      HBR
+      HVN
+      HTS
+      HWY
+      HL
+      IS
+      LNDG
+      LOOP
+      MALL
+      MTWY
+      PARK
+      PKWY
+      PASS
+      PATH
+      PT
+      PRT
+      PR
+      RADL
+      RNCH
+      RPD
+      RIV
+      RD
+      ROW
+      RUN
+      SKWY
+      SPUR
+      ST
+      TUNL
+      TPKE
+      VLY
+      WALK
+      WALL
+      WAY
+    )
 
     # random US street address. Pass false to get raw data hash
     def self.random_addr(formatted = true, limit_cities = false)
@@ -126,23 +126,19 @@ module Kitbash
     end
 
     def self.random_city
-      ind = SecureRandom.random_number(all_cities.count)
-      all_cities[ind]
+      all_cities.sample
     end
 
     def self.random_street
-      ind = SecureRandom.random_number(streets.count)
-      streets[ind]
+      streets.sample
     end
 
     def self.random_street_type
-      ind = SecureRandom.random_number @@street_types.count
-      @@street_types[ind]
+      @@street_types.sample
     end
 
     def self.random_zip
-      ind = SecureRandom.random_number(zip_codes.count)
-      zip_codes[ind]
+      zip_codes.sample
     end
   end
 end
