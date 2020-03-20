@@ -76,6 +76,59 @@ puts "#{Kitbash::Synonyms.trendy}"
 #=> blockchain
 ```
 
+## Organizations
+
+Contains code intended to generate the names of random organizations.
+
+#### Available Methods
+
+**default_domain** - Randomly selects a domain belonging to one of the pre-generated organizations
+
+**default_org** - Randomly selects one of the pre-generated organizations
+
+**gen_org_name** - Generates a random organization name based on the argument `type`. Options for `type` are:
+ - :syllable - create a name from a random syllable with a "techy" suffix. This is the default
+ - :nouns - Create a name from a random noun
+ - :location - Create a name from a combination of nouns, adjectives, and location names
+ - :words - Create a name from a combination of nouns and adjectives
+
+**gen_org_url** - Generates a url for an organization. Takes the name of the organization as a parameter
+
+**organization** - Generates an organization and url using previously-listed methods. Takes `type` as an argument
+
+**random_website** - Generates a random website name
+
+#### Example
+```ruby
+require 'kitbash'
+
+puts "#{Kitbash::Organizations.organization}"
+#=> {:name=>"Courus", :url=>"courus.fr.mil"}
+```
+
+## Accounts
+
+Contains methods to help generate usernames and user emails.
+
+**email_from_name** - Creates an email from a personal name takes a required `name` argument and an optional `domain` argument. If `domain` is not supplied, a random one will be generated
+
+**random_email** - Generates a random email address from a combination of random words. Takes and optional `use_default_domain` argument that, if set to `true` will restrict the email domain to one of the pre-generated ones
+
+**random_username** - Generates a random username out of a collection of random words, phrases, and years
+
+**username_from_personal_name** - Same as `email_from_name` but without attaching a domain to the end
+
+#### Example
+```ruby
+require 'kitbash'
+
+name = Kitbash::Names.name
+puts "#{name}"
+#=> "Jolie Huang"
+puts "#{Kitbash::Accounts.email_from_name name}"
+#=> "jhuang@engineering.org"
+```
+
 ## ImageGenerator
 
 Generate simple images. All images start with a random background color and a user-specified number of simple geometric shapes are added on top of that, each with a random color. The constructor takes a width and height argument which will be used for all images generated from that class instance. This is because it's intended to be used to generate a batch of images for profile pictures or something similar. Because of this, we just go ahead and assume they should all be the same size.
